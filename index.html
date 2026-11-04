@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Netherlands Job Hunt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: sticky filter bar, pipeline strip, then a list of expandable role tickets. */
+:root {
+  --bg: #f5f6f4; --surface: #fff; --fg: #1a1d1b; --muted: #5d655f; --line: #dfe3df;
+  --accent: #d9480f; --accent-soft: #fde8dd; --good: #1e8a4c; --warn: #b26a00; --bad: #b42318;
+  --s-todo: #5d655f; --s-applied: #1c64c8; --s-int: #8a4dd0; --s-offer: #1e8a4c; --s-rej: #b42318;
+  --f-display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --f-body: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #141715; --surface: #1c201e; --fg: #e8ebe8; --muted: #9aa39c; --line: #2c322e;
+  --accent: #ff7a3d; --accent-soft: #3a2418; --good: #5fd08f; --warn: #f0b44c; --bad: #ff8a80;
+  --s-todo: #9aa39c; --s-applied: #6aa5ff; --s-int: #b993f0; --s-offer: #5fd08f; --s-rej: #ff8a80; color-scheme: dark } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.5 var(--f-body); }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 28px 16px 64px; display: grid; gap: 18px; }
+header { display: grid; gap: 6px; }
+.eyebrow { font: 500 11px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(26px, 5vw, 36px)/1.1 var(--f-display); margin: 0; }
+.lede { color: var(--muted); max-width: 70ch; margin: 0; }
+.bar { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; border-bottom: 1px solid var(--line); }
+input[type=search], select { font: 13px var(--f-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; }
+input[type=search] { flex: 1 1 220px; min-width: 0; }
+.pipe { display: grid; grid-template-columns: repeat(5, 1fr); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); }
+.pipe button { all: unset; cursor: pointer; padding: 10px 12px; display: grid; gap: 2px; border-right: 1px solid var(--line); }
+.pipe button:last-child { border-right: 0; }
+.pipe button[aria-pressed=true] { background: var(--accent-soft); }
+.pipe button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.n { font: 700 22px var(--f-display); font-variant-numeric: tabular-nums; }
+.l { font: 500 11px var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.count { font: 12px var(--f-mono); color: var(--muted); }
+.list { display: grid; gap: 10px; }
+.job { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 8px; }
+.job > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: flex; gap: 12px; justify-content: space-between; align-items: start; flex-wrap: wrap; }
+.job > summary::-webkit-details-marker { display: none; }
+.job > summary:focus-visible { outline: 2px solid var(--accent); }
+.hd { min-width: 0; flex: 1 1 360px; }
+.co { font: 500 12px var(--f-mono); color: var(--muted); }
+.title { font: 600 16px/1.3 var(--f-display); margin: 2px 0 6px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: 500 11px var(--f-mono); padding: 2px 7px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); }
+.chip.fit-strong { color: var(--good); border-color: currentColor; }
+.chip.fit-good { color: var(--s-applied); border-color: currentColor; }
+.chip.fit-stretch { color: var(--warn); border-color: currentColor; }
+.chip.ok { color: var(--good); border-color: currentColor; }
+.chip.star { color: var(--accent); border-color: currentColor; }
+.body { padding: 0 14px 14px; display: grid; gap: 14px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.grid2 > * { min-width: 0; }
+h3 { font: 600 11px var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 6px; }
+.have { color: var(--good); } .gap { color: var(--bad); }
+ul.road { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+ul.road li { display: grid; grid-template-columns: auto 1fr; gap: 8px; align-items: start; }
+ul.road li small { color: var(--muted); display: block; }
+a { color: var(--accent); }
+.btn { font: 600 13px var(--f-body); color: #fff; background: var(--accent); border: 0; border-radius: 6px; padding: 7px 12px; text-decoration: none; cursor: pointer; display: inline-block; }
+.btn.ghost { color: var(--fg); background: transparent; border: 1px solid var(--line); }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+textarea { width: 100%; min-height: 54px; resize: vertical; font: 13px/1.45 var(--f-body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; }
+pre.mail { white-space: pre-wrap; font: 12.5px/1.5 var(--f-body); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 10px; margin: 0; max-height: 260px; overflow: auto; }
+.note { padding: 14px; border: 1px dashed var(--line); border-radius: 8px; color: var(--muted); }
+details.small > summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+@media (max-width: 560px) { .pipe { grid-template-columns: repeat(3, 1fr); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="eyebrow">Highly Skilled Migrant route · IND recognised sponsors only</span>
+    <h1>Netherlands job hunt</h1>
+    <p class="lede">Software roles at companies on the IND sponsor register that fit about 2 years of experience. Each role lists the skills it needs, what to study, and who to contact after you apply. Your statuses, notes and study progress are saved in this browser. Use Export to back them up.</p>
+  </header>
+  <nav class="pipe" id="pipe" aria-label="Filter by status"></nav>
+  <div class="bar">
+    <input type="search" id="q" placeholder="Search company, title, skill…" aria-label="Search">
+    <select id="fFit" aria-label="Fit"><option value="">All fits</option><option value="strong">Strong fit</option><option value="good">Good fit</option><option value="stretch">Stretch</option></select>
+    <select id="fType" aria-label="Role type"><option value="">All role types</option></select>
+    <select id="fCity" aria-label="City"><option value="">All cities</option></select>
+    <label class="row" style="font-size:13px"><input type="checkbox" id="fPick"> Hand-picked only</label>
+    <button class="btn ghost" id="exp" type="button">Export progress</button>
+    <label class="btn ghost" for="imp">Import</label><input type="file" id="imp" accept="application/json" hidden>
+  </div>
+  <div class="count" id="count"></div>
+  <main class="list" id="list"><div class="note">Loading roles…</div></main>
+</div>
+<script>
+const STATUSES = [["todo","To apply","--s-todo"],["applied","Applied","--s-applied"],["interviewing","Interviewing","--s-int"],["offer","Offer","--s-offer"],["rejected","Closed","--s-rej"]];
+const KEY = "nljh-progress-v1";
+let jobs = [], prog = {}, fStatus = null;
+try { prog = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch { prog = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(prog)); } catch {} };
+const P = (id) => (prog[id] ||= { status: "todo", notes: "", done: {} });
+const $ = (s) => document.querySelector(s);
+const el = (t, p = {}, ...k) => { const e = document.createElement(t); for (const [a, v] of Object.entries(p)) a in e ? (e[a] = v) : e.setAttribute(a, v); k.flat().forEach(x => x != null && e.append(x)); return e; };
+const sc = (s) => `var(${(STATUSES.find(x => x[0] === s) || STATUSES[0])[2]})`;
+
+function mail(j) {
+  return `Subject: Application – ${j.title} (${j.company})
+
+Hi [Name],
+
+I've just applied for the ${j.title} role at ${j.company} and wanted to introduce myself briefly.
+
+I'm a backend engineer at Oracle Financial Services (~2 years) working with ${(j.have || []).slice(0, 4).join(", ") || "Java, Python, Kafka and Kubernetes"}. Two things that seem relevant to this role:
+• I root-caused a production pipeline hang (Kafka offset race + polling loop) that was blocking customer rollouts; my recovery design was adopted.
+• I built AIDA, an agentic LLM incident-resolution tool used by 3 teams (97% accuracy, MTTR from 30+ min to under 2).
+
+I'm ready to relocate to the Netherlands (Highly Skilled Migrant sponsorship needed — ${j.company} is on the IND recognised-sponsor register). Would you be open to a short call, or could you point me to the right person on the team?
+
+Thanks for your time,
+Ashutosh Devu
+[LinkedIn URL]`;
+}
+
+function card(j) {
+  const p = P(j.id);
+  const sel = el("select", { "aria-label": "Status" }, STATUSES.map(([k, l]) => el("option", { value: k, textContent: l, selected: k === p.status })));
+  sel.onchange = () => { p.status = sel.value; if (sel.value === "applied" && !p.appliedOn) p.appliedOn = new Date().toISOString().slice(0, 10); save(); render(); };
+  sel.onclick = (e) => e.stopPropagation();
+  const chips = el("div", { className: "chips" },
+    el("span", { className: "chip fit-" + j.fit, textContent: { strong: "Strong fit", good: "Good fit", stretch: "Stretch" }[j.fit] }),
+    el("span", { className: "chip", textContent: j.type }),
+    j.sponsor ? el("span", { className: "chip ok", textContent: "IND sponsor ✓" }) : el("span", { className: "chip", style: "color:var(--bad)", textContent: "Not on IND register" }),
+    j.picked ? el("span", { className: "chip star", textContent: "Hand-picked" }) : null,
+    j.posted ? el("span", { className: "chip", textContent: "Posted " + j.posted }) : null,
+    p.appliedOn ? el("span", { className: "chip", textContent: "Applied " + p.appliedOn }) : null);
+  const road = el("ul", { className: "road" }, (j.roadmap || []).map((r, i) => {
+    const cb = el("input", { type: "checkbox", checked: !!p.done[r.skill], "aria-label": "Done: " + r.skill });
+    cb.onchange = () => { p.done[r.skill] = cb.checked; save(); };
+    return el("li", {}, cb, el("div", {}, el("strong", { textContent: `${r.skill}${r.refresh ? " (sharpen)" : ""} · ~${r.days}d` }),
+      el("small", {}, r.plan, r.link ? [" — ", el("a", { href: r.link, target: "_blank", rel: "noopener", textContent: "resource" })] : null)));
+  }));
+  const notes = el("textarea", { value: p.notes || "", placeholder: "Notes: who you contacted, referral, interview dates…" });
+  notes.onblur = () => { p.notes = notes.value; save(); };
+  const m = mail(j);
+  const copy = el("button", { className: "btn ghost", type: "button", textContent: "Copy email" });
+  copy.onclick = async () => { try { await navigator.clipboard.writeText(m); copy.textContent = "Copied"; } catch { copy.textContent = "Select the text and copy"; } setTimeout(() => copy.textContent = "Copy email", 1800); };
+  const c = j.contacts || {};
+  return el("details", { className: "job", style: `--c:${sc(p.status)}` },
+    el("summary", {}, el("div", { className: "hd" }, el("div", { className: "co", textContent: `${j.company} · ${j.city}` }), el("div", { className: "title", textContent: j.title }), chips), sel),
+    el("div", { className: "body" },
+      el("div", { className: "grid2" },
+        el("div", {}, el("h3", { textContent: "Experience asked" }), el("div", { textContent: j.experience || "No minimum stated" }),
+          j.visaNote ? [el("h3", { style: "margin-top:10px", textContent: "Visa" }), el("div", { textContent: j.visaNote })] : null,
+          j.resume ? [el("h3", { style: "margin-top:10px", textContent: "Send" }), el("div", { textContent: `Resume: ${j.resume}${j.letter ? " · Letter: " + j.letter : ""}` })] : null),
+        el("div", {}, el("h3", { textContent: "Skills in the description" }),
+          el("div", {}, el("span", { className: "have", textContent: "You have: " }), (j.have || []).join(", ") || "—"),
+          el("div", {}, el("span", { className: "gap", textContent: "To learn: " }), (j.gaps || []).join(", ") || "None. Your stack covers it."))),
+      el("div", {}, el("h3", { textContent: "Study roadmap" }), road.childElementCount ? road : el("div", { className: "count", textContent: "No gaps found." })),
+      el("div", { className: "grid2" },
+        el("div", {}, el("h3", { textContent: "People to contact" }),
+          el("div", { className: "row" },
+            el("a", { href: c.recruiter, target: "_blank", rel: "noopener", textContent: "Recruiters" }), "·",
+            el("a", { href: c.manager, target: "_blank", rel: "noopener", textContent: "Engineering managers" }), "·",
+            el("a", { href: c.team, target: "_blank", rel: "noopener", textContent: "Engineers on the team" })),
+          (c.emails || []).length ? el("div", { style: "margin-top:6px" }, "Email in posting: ", c.emails.join(", ")) : null,
+          el("p", { className: "count", textContent: "LinkedIn searches. Pick the recruiter or manager for this team, then send the note below. Look up and check the address yourself before you send." })),
+        el("div", {}, el("h3", { textContent: "Follow-up email after applying" }), el("pre", { className: "mail", textContent: m }), el("div", { className: "row", style: "margin-top:6px" }, copy))),
+      notes,
+      el("div", { className: "row" }, el("a", { className: "btn", href: j.url, target: "_blank", rel: "noopener", textContent: "Open posting & apply" }),
+        j.links?.careers ? el("a", { className: "btn ghost", href: j.links.careers, target: "_blank", rel: "noopener", textContent: "Company careers page" }) : null,
+        j.links?.linkedinJobs ? el("a", { className: "btn ghost", href: j.links.linkedinJobs, target: "_blank", rel: "noopener", textContent: "All their NL jobs on LinkedIn" }) : null)));
+}
+
+function renderPipe() {
+  const pipe = $("#pipe"); pipe.textContent = "";
+  STATUSES.forEach(([k, l, c]) => {
+    const n = jobs.filter(j => P(j.id).status === k).length;
+    const b = el("button", { type: "button", "aria-pressed": String(fStatus === k) }, el("span", { className: "n", textContent: n }), el("span", { className: "l" }, el("span", { className: "dot", style: `--c:var(${c})` }), l));
+    b.onclick = () => { fStatus = fStatus === k ? null : k; render(); };
+    pipe.append(b);
+  });
+}
+
+function render() {
+  renderPipe();
+  const q = $("#q").value.toLowerCase(), fit = $("#fFit").value, ty = $("#fType").value, city = $("#fCity").value, pick = $("#fPick").checked;
+  const rows = jobs.filter(j => (!fStatus || P(j.id).status === fStatus) && (!fit || j.fit === fit) && (!ty || j.type === ty) && (!city || j.cityKey === city) && (!pick || j.picked)
+    && (!q || [j.company, j.title, j.city, ...(j.skills || [])].join(" ").toLowerCase().includes(q)));
+  $("#count").textContent = `${rows.length} of ${jobs.length} roles · ${new Set(rows.map(j => j.company)).size} companies`;
+  const list = $("#list"); list.textContent = "";
+  if (!rows.length) { list.append(el("div", { className: "note", textContent: "No roles match these filters." })); return; }
+  rows.slice(0, 300).forEach(j => list.append(card(j)));
+}
+
+const CITY = /amsterdam|rotterdam|utrecht|eindhoven|the hague|den haag|delft|leiden|groningen|amstelveen|hoofddorp|nijmegen|enschede|veldhoven|breda|tilburg|haarlem|almere|amersfoort|zwolle|arnhem/i;
+fetch("jobs.json").then(r => r.json()).then(d => {
+  jobs = d.map(j => ({ ...j, cityKey: ((j.city.match(CITY) || ["Other"])[0]).replace(/^./, c => c.toUpperCase()).replace("Den haag", "The Hague").replace("The hague", "The Hague") }));
+  [...new Set(jobs.map(j => j.type))].sort().forEach(t => $("#fType").append(el("option", { value: t, textContent: t })));
+  [...new Set(jobs.map(j => j.cityKey))].sort().forEach(t => $("#fCity").append(el("option", { value: t, textContent: t })));
+  render();
+}).catch(() => { $("#list").textContent = ""; $("#list").append(el("div", { className: "note", textContent: "Couldn't load jobs.json. Refresh the page." })); });
+["#q", "#fFit", "#fType", "#fCity", "#fPick"].forEach(s => $(s).addEventListener("input", render));
+$("#exp").onclick = () => { const a = el("a", { href: URL.createObjectURL(new Blob([JSON.stringify(prog, null, 1)], { type: "application/json" })), download: "nl-job-hunt-progress.json" }); a.click(); };
+$("#imp").onchange = async (e) => { try { prog = JSON.parse(await e.target.files[0].text()); save(); render(); } catch { alert("That file isn't a valid progress export."); } };
+</script>
+</body>
+</html>
