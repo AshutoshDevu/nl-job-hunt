@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Netherlands Job Hunt</title>
+<title>Europe Job Hunt</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
@@ -77,16 +77,18 @@ details.small > summary { cursor: pointer; color: var(--muted); font-size: 13px;
 <body>
 <div class="wrap">
   <header>
-    <span class="eyebrow">Highly Skilled Migrant route · IND recognised sponsors only</span>
-    <h1>Netherlands job hunt</h1>
-    <p class="lede">Software roles at companies on the IND sponsor register that fit about 2 years of experience. Each role lists the skills it needs, what to study, and who to contact after you apply. Your statuses, notes and study progress are saved in this browser. Use Export to back them up.</p>
+    <span class="eyebrow">Netherlands · Germany · Luxembourg · Switzerland</span>
+    <h1>Europe job hunt</h1>
+    <p class="lede">Software roles that fit about 2 years of experience and don't require Dutch, German or French. Dutch roles are at IND recognised sponsors only. Other countries have no sponsor register, so check each role's visa note. Each role lists the skills it needs, what to study, and who to contact after you apply. Your statuses, notes and study progress are saved in this browser. Use Export to back them up.</p>
   </header>
   <nav class="pipe" id="pipe" aria-label="Filter by status"></nav>
   <div class="bar">
     <input type="search" id="q" placeholder="Search company, title, skill…" aria-label="Search">
+    <select id="fCountry" aria-label="Country"><option value="">All countries</option></select>
     <select id="fFit" aria-label="Fit"><option value="">All fits</option><option value="strong">Strong fit</option><option value="good">Good fit</option><option value="stretch">Stretch</option></select>
     <select id="fType" aria-label="Role type"><option value="">All role types</option></select>
     <select id="fCity" aria-label="City"><option value="">All cities</option></select>
+    <label class="row" style="font-size:13px"><input type="checkbox" id="fVisa"> Mentions visa/relocation</label>
     <label class="row" style="font-size:13px"><input type="checkbox" id="fPick"> Hand-picked only</label>
     <button class="btn ghost" id="exp" type="button">Export progress</button>
     <label class="btn ghost" for="imp">Import</label><input type="file" id="imp" accept="application/json" hidden>
@@ -105,6 +107,14 @@ const $ = (s) => document.querySelector(s);
 const el = (t, p = {}, ...k) => { const e = document.createElement(t); for (const [a, v] of Object.entries(p)) a in e ? (e[a] = v) : e.setAttribute(a, v); k.flat().forEach(x => x != null && e.append(x)); return e; };
 const sc = (s) => `var(${(STATUSES.find(x => x[0] === s) || STATUSES[0])[2]})`;
 
+const RELOCATE = {
+  Netherlands: (j) => `I'm ready to relocate to the Netherlands (Highly Skilled Migrant sponsorship needed${j.sponsor ? ` — ${j.company} is on the IND recognised-sponsor register` : ""}).`,
+  Germany: () => "I'm ready to relocate to Germany and would need support with an EU Blue Card.",
+  Luxembourg: () => "I'm ready to relocate to Luxembourg and would need support with an EU Blue Card.",
+  Switzerland: () => "I'm ready to relocate to Switzerland and would need the employer to sponsor my work permit.",
+};
+const country = (j) => j.country || "Netherlands";
+
 function mail(j) {
   return `Subject: Application – ${j.title} (${j.company})
 
@@ -116,7 +126,7 @@ I'm a backend engineer at Oracle Financial Services (~2 years) working with ${(j
 • I root-caused a production pipeline hang (Kafka offset race + polling loop) that was blocking customer rollouts; my recovery design was adopted.
 • I built AIDA, an agentic LLM incident-resolution tool used by 3 teams (97% accuracy, MTTR from 30+ min to under 2).
 
-I'm ready to relocate to the Netherlands (Highly Skilled Migrant sponsorship needed — ${j.company} is on the IND recognised-sponsor register). Would you be open to a short call, or could you point me to the right person on the team?
+${RELOCATE[country(j)](j)} Would you be open to a short call, or could you point me to the right person on the team?
 
 Thanks for your time,
 Ashutosh Devu
@@ -131,7 +141,10 @@ function card(j) {
   const chips = el("div", { className: "chips" },
     el("span", { className: "chip fit-" + j.fit, textContent: { strong: "Strong fit", good: "Good fit", stretch: "Stretch" }[j.fit] }),
     el("span", { className: "chip", textContent: j.type }),
-    j.sponsor ? el("span", { className: "chip ok", textContent: "IND sponsor ✓" }) : el("span", { className: "chip", style: "color:var(--bad)", textContent: "Not on IND register" }),
+    el("span", { className: "chip", textContent: country(j) }),
+    country(j) === "Netherlands" ? (j.sponsorChecked === false ? el("span", { className: "chip", style: "color:var(--warn)", textContent: "Check IND register" }) : j.sponsor ? el("span", { className: "chip ok", textContent: "IND sponsor ✓" }) : el("span", { className: "chip", style: "color:var(--bad)", textContent: "Not on IND register" }))
+      : country(j) === "Switzerland" ? el("span", { className: "chip", style: "color:var(--warn)", textContent: "Permit is hard" }) : el("span", { className: "chip", textContent: "Blue Card route" }),
+    j.visaSignal ? el("span", { className: "chip ok", textContent: "Mentions visa/relocation" }) : null,
     j.picked ? el("span", { className: "chip star", textContent: "Hand-picked" }) : null,
     j.posted ? el("span", { className: "chip", textContent: "Posted " + j.posted }) : null,
     p.appliedOn ? el("span", { className: "chip", textContent: "Applied " + p.appliedOn }) : null);
@@ -170,7 +183,7 @@ function card(j) {
       notes,
       el("div", { className: "row" }, el("a", { className: "btn", href: j.url, target: "_blank", rel: "noopener", textContent: "Open posting & apply" }),
         j.links?.careers ? el("a", { className: "btn ghost", href: j.links.careers, target: "_blank", rel: "noopener", textContent: "Company careers page" }) : null,
-        j.links?.linkedinJobs ? el("a", { className: "btn ghost", href: j.links.linkedinJobs, target: "_blank", rel: "noopener", textContent: "All their NL jobs on LinkedIn" }) : null)));
+        j.links?.linkedinJobs ? el("a", { className: "btn ghost", href: j.links.linkedinJobs, target: "_blank", rel: "noopener", textContent: "All their jobs here on LinkedIn" }) : null)));
 }
 
 function renderPipe() {
@@ -183,25 +196,36 @@ function renderPipe() {
   });
 }
 
-function render() {
+const PAGE = 100;
+let shown = PAGE;
+function render(keep) {
+  if (keep !== true) shown = PAGE;
   renderPipe();
-  const q = $("#q").value.toLowerCase(), fit = $("#fFit").value, ty = $("#fType").value, city = $("#fCity").value, pick = $("#fPick").checked;
-  const rows = jobs.filter(j => (!fStatus || P(j.id).status === fStatus) && (!fit || j.fit === fit) && (!ty || j.type === ty) && (!city || j.cityKey === city) && (!pick || j.picked)
+  const q = $("#q").value.toLowerCase(), fit = $("#fFit").value, ty = $("#fType").value, city = $("#fCity").value, pick = $("#fPick").checked, ctry = $("#fCountry").value, visa = $("#fVisa").checked;
+  const rows = jobs.filter(j => (!fStatus || P(j.id).status === fStatus) && (!fit || j.fit === fit) && (!ty || j.type === ty) && (!city || j.cityKey === city) && (!pick || j.picked) && (!ctry || country(j) === ctry) && (!visa || j.visaSignal)
     && (!q || [j.company, j.title, j.city, ...(j.skills || [])].join(" ").toLowerCase().includes(q)));
   $("#count").textContent = `${rows.length} of ${jobs.length} roles · ${new Set(rows.map(j => j.company)).size} companies`;
   const list = $("#list"); list.textContent = "";
   if (!rows.length) { list.append(el("div", { className: "note", textContent: "No roles match these filters." })); return; }
-  rows.slice(0, 300).forEach(j => list.append(card(j)));
+  rows.slice(0, shown).forEach(j => list.append(card(j)));
+  if (rows.length > shown) {
+    const more = el("button", { className: "btn ghost", type: "button", textContent: `Show ${Math.min(PAGE, rows.length - shown)} more (${rows.length - shown} left)` });
+    more.onclick = () => { shown += PAGE; render(true); };
+    list.append(more);
+  }
 }
 
-const CITY = /amsterdam|rotterdam|utrecht|eindhoven|the hague|den haag|delft|leiden|groningen|amstelveen|hoofddorp|nijmegen|enschede|veldhoven|breda|tilburg|haarlem|almere|amersfoort|zwolle|arnhem/i;
+const CITY = /amsterdam|rotterdam|utrecht|eindhoven|the hague|den haag|delft|leiden|groningen|amstelveen|hoofddorp|nijmegen|enschede|veldhoven|breda|tilburg|haarlem|almere|amersfoort|zwolle|arnhem|berlin|munich|münchen|hamburg|frankfurt|cologne|köln|stuttgart|düsseldorf|leipzig|dresden|nuremberg|nürnberg|karlsruhe|hannover|luxembourg|zurich|zürich|geneva|genève|lausanne|basel|bern|zug/i;
+const CITY_NAME = { "den haag": "The Hague", "the hague": "The Hague", "münchen": "Munich", "köln": "Cologne", "nürnberg": "Nuremberg", "zürich": "Zurich", "genève": "Geneva" };
+const cityKey = (s) => { const m = (s.match(CITY) || ["Other"])[0]; return CITY_NAME[m.toLowerCase()] || m.charAt(0).toUpperCase() + m.slice(1).toLowerCase(); };
 fetch("jobs.json").then(r => r.json()).then(d => {
-  jobs = d.map(j => ({ ...j, cityKey: ((j.city.match(CITY) || ["Other"])[0]).replace(/^./, c => c.toUpperCase()).replace("Den haag", "The Hague").replace("The hague", "The Hague") }));
+  jobs = d.map(j => ({ ...j, cityKey: cityKey(j.city) }));
+  [...new Set(jobs.map(country))].sort().forEach(t => $("#fCountry").append(el("option", { value: t, textContent: t })));
   [...new Set(jobs.map(j => j.type))].sort().forEach(t => $("#fType").append(el("option", { value: t, textContent: t })));
   [...new Set(jobs.map(j => j.cityKey))].sort().forEach(t => $("#fCity").append(el("option", { value: t, textContent: t })));
   render();
 }).catch(() => { $("#list").textContent = ""; $("#list").append(el("div", { className: "note", textContent: "Couldn't load jobs.json. Refresh the page." })); });
-["#q", "#fFit", "#fType", "#fCity", "#fPick"].forEach(s => $(s).addEventListener("input", render));
+["#q", "#fFit", "#fType", "#fCity", "#fPick", "#fCountry", "#fVisa"].forEach(s => $(s).addEventListener("input", () => render()));
 $("#exp").onclick = () => { const a = el("a", { href: URL.createObjectURL(new Blob([JSON.stringify(prog, null, 1)], { type: "application/json" })), download: "nl-job-hunt-progress.json" }); a.click(); };
 $("#imp").onchange = async (e) => { try { prog = JSON.parse(await e.target.files[0].text()); save(); render(); } catch { alert("That file isn't a valid progress export."); } };
 </script>
