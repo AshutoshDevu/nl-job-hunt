@@ -187,46 +187,31 @@
   }
  },
  {
-  "id": "databricks-backend",
-  "company": "Databricks",
-  "registerName": "Databricks",
-  "title": "Software Engineer – Backend",
-  "city": "Amsterdam",
-  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
-  "type": "Backend",
-  "posted": "2026-09-21",
-  "source": "gh",
-  "sponsor": true,
-  "fit": "strong",
-  "years": 2,
-  "experience": "2+ years production Java/Scala/C++; BS in CS",
   "skills": [
    "Java",
    "Scala",
    "C++",
-   "SQL",
-   "MongoDB",
    "Distributed systems",
    "Kubernetes",
    "AWS",
+   "GCP",
    "Azure",
    "Spark",
-   "LLMs / GenAI",
-   "System design"
+   "System design",
+   "Algorithms & data structures"
   ],
   "have": [
    "Java",
    "C++",
-   "SQL",
    "Distributed systems",
    "Kubernetes",
-   "LLMs / GenAI",
-   "System design"
+   "System design",
+   "Algorithms & data structures"
   ],
   "gaps": [
    "Scala",
-   "MongoDB",
    "AWS",
+   "GCP",
    "Azure",
    "Spark"
   ],
@@ -238,16 +223,16 @@
     "link": "https://docs.scala-lang.org/tour/tour-of-scala.html"
    },
    {
-    "skill": "MongoDB",
-    "days": 3,
-    "plan": "Document modelling, indexes, aggregation pipeline; MongoDB University basics",
-    "link": "https://learn.mongodb.com/"
-   },
-   {
     "skill": "AWS",
     "days": 10,
     "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
     "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "GCP",
+    "days": 7,
+    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
+    "link": "https://cloud.google.com/learn/training"
    },
    {
     "skill": "Azure",
@@ -277,24 +262,33 @@
    },
    {
     "skill": "Algorithms & data structures",
-    "days": 5,
+    "days": 3,
     "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
     "link": "",
     "refresh": true
    }
   ],
-  "visaMention": false,
+  "id": "databricks-backend",
+  "company": "Databricks",
+  "title": "Software Engineer – Backend",
+  "city": "Amsterdam",
+  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
+  "fit": "strong",
+  "experience": "2+ years production Java/Scala/C++; BS in CS",
+  "visaNote": "IND recognised sponsor (Databricks)",
+  "resume": "Backend_NL",
+  "letter": "#4 Databricks",
+  "type": "Backend",
+  "order": 2,
+  "picked": true,
+  "sponsor": true,
+  "posted": "",
   "contacts": {
    "emails": [],
    "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20technical%20recruiter",
    "manager": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20engineering%20manager",
    "team": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20Backend%20engineer"
   },
-  "visaNote": "IND recognised sponsor (Databricks)",
-  "resume": "Backend_NL",
-  "letter": "#4 Databricks",
-  "order": 2,
-  "picked": true,
   "links": {
    "careers": "https://www.databricks.com/company/careers/open-positions",
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Databricks"
@@ -1278,40 +1272,23 @@
   }
  },
  {
-  "id": "adyen-se2-financial",
-  "company": "Adyen",
-  "registerName": "Adyen N.V.",
-  "title": "Software Engineer II (Java) – Financial Products",
-  "city": "Amsterdam",
-  "url": "https://job-boards.greenhouse.io/adyen/jobs/8081186",
-  "type": "Java",
-  "posted": "2026-11-03",
-  "source": "gh",
-  "sponsor": true,
-  "fit": "stretch",
-  "years": 3,
-  "experience": "3+ years",
   "skills": [
    "Java",
    "SQL",
-   "PostgreSQL",
    "REST APIs",
-   "Distributed systems",
-   "System design"
+   "Distributed systems"
   ],
   "have": [
    "Java",
    "SQL",
-   "PostgreSQL",
    "REST APIs",
-   "Distributed systems",
-   "System design"
+   "Distributed systems"
   ],
   "gaps": [],
   "roadmap": [
    {
     "skill": "System design",
-    "days": 3,
+    "days": 5,
     "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
     "link": "",
     "refresh": true
@@ -1324,18 +1301,27 @@
     "refresh": true
    }
   ],
-  "visaMention": false,
+  "id": "adyen-se2-financial",
+  "company": "Adyen",
+  "title": "Software Engineer II (Java) – Financial Products",
+  "city": "Amsterdam",
+  "url": "https://job-boards.greenhouse.io/adyen/jobs/8081186",
+  "fit": "stretch",
+  "experience": "3+ years",
+  "visaNote": "IND recognised sponsor (Adyen N.V.)",
+  "resume": "Backend_NL",
+  "letter": "#3 Adyen (TEAM = Financial Products)",
+  "type": "Java",
+  "order": 11,
+  "picked": true,
+  "sponsor": true,
+  "posted": "",
   "contacts": {
    "emails": [],
    "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Adyen%20technical%20recruiter",
    "manager": "https://www.linkedin.com/search/results/people/?keywords=Adyen%20engineering%20manager",
    "team": "https://www.linkedin.com/search/results/people/?keywords=Adyen%20Java%20engineer"
   },
-  "visaNote": "IND recognised sponsor (Adyen N.V.)",
-  "resume": "Backend_NL",
-  "letter": "#3 Adyen (TEAM = Financial Products)",
-  "order": 11,
-  "picked": true,
   "links": {
    "careers": "https://careers.adyen.com/vacancies",
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Adyen"
@@ -1521,7 +1507,7 @@
   "city": "Amsterdam",
   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4630983101",
   "type": "Software",
-  "posted": "2026-10-30",
+  "posted": "2026-11-05",
   "source": "gh",
   "sponsor": true,
   "fit": "stretch",
@@ -2307,7 +2293,7 @@
   "sponsor": true,
   "fit": "strong",
   "years": 1,
-  "experience": "- 1+ years of commercial working experience as a Software Engineer",
+  "experience": "- 1+ years of commercial experience as a software engineer",
   "skills": [
    "Python",
    "Rust",
@@ -2590,6 +2576,59 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Brain%20Corp"
+  }
+ },
+ {
+  "id": "bunq-ios-developer",
+  "company": "bunq",
+  "registerName": "bunq B.V.",
+  "title": "iOS Developer",
+  "city": "Amsterdam Netherlands",
+  "url": "https://careers.bunq.com/o/ios-developer-4",
+  "type": "Software",
+  "posted": "2026-10-05",
+  "source": "rec",
+  "sponsor": true,
+  "fit": "strong",
+  "years": 2,
+  "experience": "5k after 2 years and €3k after 4 years to visit another core office",
+  "skills": [
+   "REST APIs",
+   "CI/CD",
+   "System design"
+  ],
+  "have": [
+   "REST APIs",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=bunq%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=bunq%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=bunq%20Software%20engineer"
+  },
+  "links": {
+   "careers": "https://careers.bunq.com/",
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=bunq"
   }
  },
  {
@@ -3094,6 +3133,82 @@
   }
  },
  {
+  "id": "cuspai-scientific-software-engineer-lab-integration-",
+  "company": "Cusp AI",
+  "registerName": "Cusp AI B.V.",
+  "title": "Scientific Software Engineer (Lab Integration)",
+  "city": "London, UK Amsterdam, NL Berlin, DE Cambridge, UK",
+  "url": "https://jobs.ashbyhq.com/cuspai/efcaa040-870e-4786-97e2-d88bfb0e4498",
+  "type": "Software",
+  "posted": "2026-11-05",
+  "source": "ash",
+  "sponsor": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "Distributed systems",
+   "Docker",
+   "Terraform",
+   "CI/CD",
+   "Observability",
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "Distributed systems",
+   "Docker",
+   "CI/CD",
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "gaps": [
+   "Terraform",
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Cusp%20AI%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Cusp%20AI%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Cusp%20AI%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Cusp%20AI"
+  }
+ },
+ {
   "id": "dataiku-fullstack-software-engineer-core",
   "company": "Dataiku",
   "registerName": "Dataiku B.V.",
@@ -3245,7 +3360,7 @@
   "city": "Amsterdam, Netherlands",
   "url": "https://job-boards.greenhouse.io/flexport/jobs/8256564",
   "type": "Software",
-  "posted": "2026-10-28",
+  "posted": "2026-11-04",
   "source": "gh",
   "sponsor": true,
   "fit": "strong",
@@ -3413,7 +3528,7 @@
   "city": "Amsterdam, Netherlands",
   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4945420101",
   "type": "C++",
-  "posted": "2026-10-13",
+  "posted": "2026-11-05",
   "source": "gh",
   "sponsor": true,
   "fit": "strong",
@@ -3466,7 +3581,7 @@
   "city": "Amsterdam, Netherlands",
   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4889019101",
   "type": "Platform / DevOps / SRE",
-  "posted": "2026-10-30",
+  "posted": "2026-11-05",
   "source": "gh",
   "sponsor": true,
   "fit": "strong",
@@ -3560,76 +3675,6 @@
   "links": {
    "careers": "https://www.imc.com/eu/careers/jobs",
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=IMC"
-  }
- },
- {
-  "id": "jetbrains-founding-ml-engineer-spectrum-",
-  "company": "JetBrains",
-  "registerName": "JetBrains Expo B.V.",
-  "title": "Founding ML Engineer (Spectrum)",
-  "city": "Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Lon",
-  "url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4769511101",
-  "type": "AI / ML",
-  "posted": "2026-11-02",
-  "source": "gh",
-  "sponsor": true,
-  "fit": "strong",
-  "years": null,
-  "experience": "of JetBrains' startup incubator, with startup speed and autonomy, and backed by 25 years of developer tooling expertise",
-  "skills": [
-   "Kotlin",
-   "Python",
-   "Observability",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "have": [
-   "Python",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "gaps": [
-   "Kotlin",
-   "Observability"
-  ],
-  "roadmap": [
-   {
-    "skill": "Kotlin",
-    "days": 7,
-    "plan": "Kotlin syntax vs Java; null safety, data classes, coroutines; port one Spring Boot service to Kotlin",
-    "link": "https://kotlinlang.org/docs/getting-started.html"
-   },
-   {
-    "skill": "Observability",
-    "days": 3,
-    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
-    "link": "https://opentelemetry.io/docs/"
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=JetBrains%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=JetBrains%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=JetBrains%20AI%20/%20ML%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=JetBrains"
   }
  },
  {
@@ -4113,7 +4158,7 @@
   "registerName": "MotherDuck",
   "title": "Software Engineer - Database",
   "city": "Amsterdam",
-  "url": "https://jobs.ashbyhq.com/motherduck/2e2ea1b3-935f-425f-a608-038994ff72c9",
+  "url": "https://jobs.ashbyhq.com/MotherDuck/2e2ea1b3-935f-425f-a608-038994ff72c9",
   "type": "Data",
   "posted": "2026-09-16",
   "source": "ash",
@@ -4171,6 +4216,163 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=MotherDuck"
+  }
+ },
+ {
+  "id": "onedyas-production-esg-data-engineer",
+  "company": "ONE-Dyas",
+  "registerName": "ONE-Dyas B.V.",
+  "title": "Production & ESG Data Engineer",
+  "city": "Amsterdam Netherlands",
+  "url": "https://onedyas.recruitee.com/o/production-esg-data-engineer",
+  "type": "Data",
+  "posted": "2026-11-06",
+  "source": "rec",
+  "sponsor": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "SQL"
+  ],
+  "have": [
+   "Python",
+   "SQL"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "contacts": {
+   "emails": [
+    "Gerlof.visser@onedyas.com"
+   ],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=ONE-Dyas%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=ONE-Dyas%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=ONE-Dyas%20Data%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=ONE-Dyas"
+  }
+ },
+ {
+  "id": "onlinepaymentplatform-data-platform-engineer",
+  "company": "Online Payment Platform",
+  "registerName": "Online Payment Platform",
+  "title": "Data Platform Engineer",
+  "city": "Delft Netherlands",
+  "url": "https://jobs.onlinepaymentplatform.com/o/data-platform-engineer",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-11-09",
+  "source": "rec",
+  "sponsor": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Scala",
+   "Python",
+   "SQL",
+   "REST APIs",
+   "Distributed systems",
+   "Docker",
+   "Terraform",
+   "AWS",
+   "CI/CD",
+   "Observability",
+   "Airflow",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "SQL",
+   "REST APIs",
+   "Distributed systems",
+   "Docker",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [
+   "Scala",
+   "Terraform",
+   "AWS",
+   "Observability",
+   "Airflow"
+  ],
+  "roadmap": [
+   {
+    "skill": "Scala",
+    "days": 10,
+    "plan": "Scala basics, case classes, pattern matching, Futures; read 'Functional Programming in Scala' ch.1-4",
+    "link": "https://docs.scala-lang.org/tour/tour-of-scala.html"
+   },
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Airflow",
+    "days": 3,
+    "plan": "DAGs, operators, scheduling, backfills",
+    "link": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "contacts": {
+   "emails": [
+    "recruitment@onlinepaymentplatform.com"
+   ],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Online%20Payment%20Platform%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Online%20Payment%20Platform%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Online%20Payment%20Platform%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Online%20Payment%20Platform"
   }
  },
  {
@@ -4503,304 +4705,6 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Polars"
-  }
- },
- {
-  "id": "quandago-full-stack-engineer",
-  "company": "QuandaGo International",
-  "registerName": "QuandaGo International B.V.",
-  "title": "Full Stack Engineer",
-  "city": "Capelle aan den IJssel Netherlands",
-  "url": "https://jobs.quandago.com/o/full-stack-engineer",
-  "type": "Full-stack",
-  "posted": "2026-02-27",
-  "source": "rec",
-  "sponsor": true,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "Python",
-   "TypeScript",
-   "JavaScript",
-   "Vue",
-   "PHP",
-   "Docker",
-   "Kubernetes",
-   "AWS",
-   "CI/CD",
-   "System design"
-  ],
-  "have": [
-   "Python",
-   "TypeScript",
-   "JavaScript",
-   "Docker",
-   "Kubernetes",
-   "CI/CD",
-   "System design"
-  ],
-  "gaps": [
-   "Vue",
-   "PHP",
-   "AWS"
-  ],
-  "roadmap": [
-   {
-    "skill": "Vue",
-    "days": 5,
-    "plan": "Vue 3 composition API, Pinia; build a small SPA",
-    "link": "https://vuejs.org/guide/introduction.html"
-   },
-   {
-    "skill": "PHP",
-    "days": 5,
-    "plan": "Modern PHP 8 syntax, Composer, Laravel/Symfony basics",
-    "link": "https://www.php.net/manual/en/getting-started.php"
-   },
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "Kubernetes",
-    "days": 3,
-    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "contacts": {
-   "emails": [
-    "hr@quandago.com"
-   ],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20Full-stack%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=QuandaGo%20International"
-  }
- },
- {
-  "id": "quandago-medior-software-engineer-net",
-  "company": "QuandaGo International",
-  "registerName": "QuandaGo International B.V.",
-  "title": "Medior Software Engineer .Net",
-  "city": "Capelle aan den IJssel Netherlands",
-  "url": "https://jobs.quandago.com/o/net-developer",
-  "type": "Software",
-  "posted": "2025-11-21",
-  "source": "rec",
-  "sponsor": true,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "C#/.NET",
-   "JavaScript",
-   "SQL",
-   "PostgreSQL",
-   "Kubernetes",
-   "Terraform",
-   "AWS",
-   "CI/CD"
-  ],
-  "have": [
-   "JavaScript",
-   "SQL",
-   "PostgreSQL",
-   "Kubernetes",
-   "CI/CD"
-  ],
-  "gaps": [
-   "C#/.NET",
-   "Terraform",
-   "AWS"
-  ],
-  "roadmap": [
-   {
-    "skill": "C#/.NET",
-    "days": 10,
-    "plan": "C# fundamentals; ASP.NET Core minimal API; EF Core basics",
-    "link": "https://learn.microsoft.com/dotnet/csharp/"
-   },
-   {
-    "skill": "Terraform",
-    "days": 4,
-    "plan": "HCL, providers, state, modules; provision a small AWS stack",
-    "link": "https://developer.hashicorp.com/terraform/tutorials"
-   },
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "Kubernetes",
-    "days": 3,
-    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20Software%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=QuandaGo%20International"
-  }
- },
- {
-  "id": "quandago-medior-software-engineer-golang",
-  "company": "QuandaGo International",
-  "registerName": "QuandaGo International B.V.",
-  "title": "Medior Software Engineer Golang",
-  "city": "Capelle aan den IJssel Netherlands",
-  "url": "https://jobs.quandago.com/o/golang-developer",
-  "type": "Software",
-  "posted": "2025-11-21",
-  "source": "rec",
-  "sponsor": true,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "Python",
-   "Go",
-   "PHP",
-   "REST APIs",
-   "Concurrency",
-   "Kubernetes",
-   "Terraform",
-   "AWS",
-   "CI/CD",
-   "Linux",
-   "Testing (unit/integration)"
-  ],
-  "have": [
-   "Python",
-   "REST APIs",
-   "Concurrency",
-   "Kubernetes",
-   "CI/CD",
-   "Linux"
-  ],
-  "gaps": [
-   "Go",
-   "PHP",
-   "Terraform",
-   "AWS",
-   "Testing (unit/integration)"
-  ],
-  "roadmap": [
-   {
-    "skill": "Go",
-    "days": 10,
-    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
-    "link": "https://go.dev/tour/"
-   },
-   {
-    "skill": "PHP",
-    "days": 5,
-    "plan": "Modern PHP 8 syntax, Composer, Laravel/Symfony basics",
-    "link": "https://www.php.net/manual/en/getting-started.php"
-   },
-   {
-    "skill": "Terraform",
-    "days": 4,
-    "plan": "HCL, providers, state, modules; provision a small AWS stack",
-    "link": "https://developer.hashicorp.com/terraform/tutorials"
-   },
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "Testing (unit/integration)",
-    "days": 3,
-    "plan": "JUnit 5 + Mockito, Testcontainers for integration tests; TDD a feature",
-    "link": "https://junit.org/junit5/docs/current/user-guide/"
-   },
-   {
-    "skill": "Concurrency",
-    "days": 3,
-    "plan": "Java concurrency: executors, CompletableFuture, locks vs atomics, virtual threads (Java 21)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Kubernetes",
-    "days": 3,
-    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=QuandaGo%20International%20Software%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=QuandaGo%20International"
   }
  },
  {
@@ -6173,78 +6077,6 @@
   }
  },
  {
-  "id": "anyone-frontend-developer-react-",
-  "company": "Anyone.com",
-  "registerName": "Anyone.com B.V.",
-  "title": "Frontend developer (React)",
-  "city": "Amsterdam Netherlands",
-  "url": "https://jobs.anyone.com/o/frontend-developer-react",
-  "type": "Frontend",
-  "posted": "2023-03-20",
-  "source": "rec",
-  "sponsor": true,
-  "fit": "good",
-  "years": 3,
-  "experience": "Strong experience with React (minimum 3-5 years)",
-  "skills": [
-   "TypeScript",
-   "Node.js",
-   "React",
-   "REST APIs",
-   "AWS",
-   "CI/CD"
-  ],
-  "have": [
-   "TypeScript",
-   "React",
-   "REST APIs",
-   "CI/CD"
-  ],
-  "gaps": [
-   "Node.js",
-   "AWS"
-  ],
-  "roadmap": [
-   {
-    "skill": "Node.js",
-    "days": 5,
-    "plan": "Event loop, async/await, Express/Fastify REST API with tests",
-    "link": "https://nodejs.org/en/learn"
-   },
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Anyone.com%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Anyone.com%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Anyone.com%20Frontend%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Anyone.com"
-  }
- },
- {
   "id": "clickhouse-full-stack-software-engineer-control-plane",
   "company": "ClickHouse",
   "registerName": "ClickHouse B.V.",
@@ -6506,7 +6338,7 @@
   "city": "Amsterdam, Netherlands; London, United Kingdom",
   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4567047101",
   "type": "AI / ML",
-  "posted": "2026-11-03",
+  "posted": "2026-11-05",
   "source": "gh",
   "sponsor": true,
   "fit": "good",
@@ -7056,7 +6888,7 @@
   "city": "Amsterdam, Netherlands",
   "url": "https://job-boards.eu.greenhouse.io/imc/jobs/5013526101",
   "type": "Data",
-  "posted": "2026-10-23",
+  "posted": "2026-11-05",
   "source": "gh",
   "sponsor": true,
   "fit": "stretch",
