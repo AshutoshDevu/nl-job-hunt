@@ -501,7 +501,7 @@
   "city": "Amsterdam",
   "url": "https://job-boards.greenhouse.io/adyen/jobs/7369512",
   "type": "Java",
-  "posted": "2026-10-26",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Netherlands",
   "countries": [
@@ -1111,14 +1111,36 @@
   }
  },
  {
+  "id": "picnic-ai-platform",
+  "company": "Picnic",
+  "registerName": "",
+  "title": "AI Platform Engineer",
+  "city": "Amsterdam",
+  "url": "https://jobs.picnic.app/nl/vacancies?gh_jid=8239169",
+  "type": "AI / ML",
+  "posted": "2026-11-02",
+  "source": "gh",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": false,
+  "fit": "good",
+  "years": null,
+  "experience": "No years stated; Python backend + LLMs in production",
   "skills": [
    "Python",
+   "Ruby",
    "PostgreSQL",
    "Kafka",
    "RabbitMQ",
+   "REST APIs",
+   "Docker",
    "Kubernetes",
    "Terraform",
    "AWS",
+   "CI/CD",
    "Observability",
    "LLMs / GenAI"
   ],
@@ -1126,16 +1148,26 @@
    "Python",
    "PostgreSQL",
    "Kafka",
+   "REST APIs",
+   "Docker",
    "Kubernetes",
+   "CI/CD",
    "LLMs / GenAI"
   ],
   "gaps": [
+   "Ruby",
    "RabbitMQ",
    "Terraform",
    "AWS",
    "Observability"
   ],
   "roadmap": [
+   {
+    "skill": "Ruby",
+    "days": 7,
+    "plan": "Ruby basics + Rails guides: MVC, ActiveRecord, testing",
+    "link": "https://guides.rubyonrails.org/getting_started.html"
+   },
    {
     "skill": "RabbitMQ",
     "days": 2,
@@ -1189,29 +1221,19 @@
     "refresh": true
    }
   ],
+  "visaMention": true,
   "visaSignal": false,
-  "id": "picnic-ai-platform",
-  "company": "Picnic",
-  "title": "AI Platform Engineer",
-  "city": "Amsterdam",
-  "url": "https://jobs.picnic.app/nl/vacancies?gh_jid=8239169",
-  "fit": "good",
-  "experience": "No years stated; Python backend + LLMs in production",
-  "visaNote": "IND recognised sponsor (Picnic Technologies B.V.); relocation: flights, first month's rent, up to €2,000",
-  "resume": "AI_NL",
-  "letter": "#2 Picnic AI Platform",
-  "type": "AI / ML",
-  "order": 9,
-  "picked": true,
-  "country": "Netherlands",
-  "sponsor": true,
-  "posted": "",
   "contacts": {
    "emails": [],
    "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Picnic%20technical%20recruiter",
    "manager": "https://www.linkedin.com/search/results/people/?keywords=Picnic%20engineering%20manager",
    "team": "https://www.linkedin.com/search/results/people/?keywords=Picnic%20AI%20/%20ML%20engineer"
   },
+  "visaNote": "IND recognised sponsor (Picnic Technologies B.V.); relocation: flights, first month's rent, up to €2,000 Board matched to the IND register by a partial name (). Check it is the same company before relying on sponsorship.",
+  "resume": "AI_NL",
+  "letter": "#2 Picnic AI Platform",
+  "order": 9,
+  "picked": true,
   "links": {
    "careers": "https://jobs.picnic.app/",
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Picnic"
@@ -3904,10 +3926,10 @@
   "registerName": "",
   "title": "Backend Developer - Golang (f/m/d)",
   "city": "Hamburg",
-  "url": "https://jobs.ashbyhq.com/justDice/67c351c3-93a6-4b90-8c76-fcc6f89aec41",
+  "url": "https://www.arbeitnow.com/jobs/companies/justdice/backend-developer-golang-hamburg-411691",
   "type": "Backend",
-  "posted": "2026-09-03",
-  "source": "ash",
+  "posted": "2026-11-08",
+  "source": "arbeitnow",
   "country": "Germany",
   "countries": [
    "Germany"
@@ -3916,7 +3938,7 @@
   "sponsorChecked": null,
   "fit": "strong",
   "years": 2,
-  "experience": "- Extensive experience in software development with Golang (at least 2–3 years)",
+  "experience": "Extensive experience in software development with Golang (at least 2–3 years)",
   "skills": [
    "Go",
    "Elasticsearch",
@@ -4816,68 +4838,6 @@
   "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here. This posting mentions visa or relocation support."
  },
  {
-  "id": "sonarsource-junior-software-engineer-java-",
-  "company": "Sonarsource",
-  "registerName": "",
-  "title": "Junior Software Engineer (Java)",
-  "city": "Geneva Geneva",
-  "url": "https://jobs.lever.co/sonarsource/93c7af86-a563-47ce-8072-443b9a4762bf",
-  "type": "Java",
-  "posted": "",
-  "source": "lv",
-  "country": "Switzerland",
-  "countries": [
-   "Switzerland"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "strong",
-  "years": null,
-  "experience": "0-3 years of professional software engineering experience",
-  "skills": [
-   "Java",
-   "LLMs / GenAI",
-   "Algorithms & data structures"
-  ],
-  "have": [
-   "Java",
-   "LLMs / GenAI",
-   "Algorithms & data structures"
-  ],
-  "gaps": [],
-  "roadmap": [
-   {
-    "skill": "Algorithms & data structures",
-    "days": 3,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": true,
-  "visaSignal": true,
-  "contacts": {
-   "emails": [
-    "hiring@sonarsource.com."
-   ],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Sonarsource%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Sonarsource%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Sonarsource%20Java%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Sonarsource"
-  },
-  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here. This posting mentions visa or relocation support."
- },
- {
   "id": "telli-engineering-voice-ai",
   "company": "telli",
   "registerName": "",
@@ -5293,6 +5253,97 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=The%20Exploration%20Company"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU. This posting mentions visa or relocation support."
+ },
+ {
+  "id": "tomtom-platform-software-engineer-amsterdam-the-netherland",
+  "company": "Tomtom",
+  "registerName": "",
+  "title": "Platform Software Engineer",
+  "city": "Amsterdam, The Netherlands",
+  "url": "https://www.arbeitnow.nl/jobs/companies/tomtom/platform-software-engineer-amsterdam-the-netherlands-313114",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-11-07",
+  "source": "arbeitnow",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": false,
+  "fit": "strong",
+  "years": 2,
+  "experience": "2 to 5 years of experience in DevOps, platform, build or infrastructure engineering",
+  "skills": [
+   "Python",
+   "REST APIs",
+   "Docker",
+   "Terraform",
+   "AWS",
+   "Azure",
+   "CI/CD",
+   "Linux",
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "Python",
+   "REST APIs",
+   "Docker",
+   "CI/CD",
+   "Linux",
+   "LLMs / GenAI"
+  ],
+  "gaps": [
+   "Terraform",
+   "AWS",
+   "Azure"
+  ],
+  "roadmap": [
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": true,
+  "visaSignal": true,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Tomtom%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Tomtom%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Tomtom%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": "https://www.tomtom.com/careers/joboverview/",
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Tomtom"
+  },
+  "visaNote": "This posting mentions visa or relocation support. Board matched to the IND register by a partial name (). Check it is the same company before relying on sponsorship."
  },
  {
   "id": "wayve-data-engineer-app-sw",
@@ -5741,6 +5792,166 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Adaptyv"
   },
   "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
+  "id": "adyen-software-engineer-full-stack-",
+  "company": "Adyen",
+  "registerName": "Adyen N.V.",
+  "title": "Software Engineer (Full-Stack)",
+  "city": "Amsterdam",
+  "url": "https://job-boards.greenhouse.io/adyen/jobs/8105757",
+  "type": "Full-stack",
+  "posted": "2026-11-10",
+  "source": "gh",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Java",
+   "TypeScript",
+   "JavaScript",
+   "Vue",
+   "SQL",
+   "CI/CD",
+   "System design"
+  ],
+  "have": [
+   "Java",
+   "TypeScript",
+   "JavaScript",
+   "SQL",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [
+   "Vue"
+  ],
+  "roadmap": [
+   {
+    "skill": "Vue",
+    "days": 5,
+    "plan": "Vue 3 composition API, Pinia; build a small SPA",
+    "link": "https://vuejs.org/guide/introduction.html"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Adyen%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Adyen%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Adyen%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": "https://careers.adyen.com/vacancies",
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Adyen"
+  }
+ },
+ {
+  "id": "agilerobotsse-c-software-engineer-m-f-d-platform-infrastructure",
+  "company": "Agile Robots SE",
+  "registerName": "",
+  "title": "C++ Software Engineer (m/f/d) Platform Infrastructure",
+  "city": "Munich, Bavaria, Germany",
+  "url": "https://job-boards.eu.greenhouse.io/agilerobotsse/jobs/4964651101",
+  "type": "C++",
+  "posted": "2026-11-10",
+  "source": "gh",
+  "country": "Germany",
+  "countries": [
+   "Germany"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "C++",
+   "Concurrency",
+   "Linux",
+   "Observability",
+   "Testing (unit/integration)"
+  ],
+  "have": [
+   "Python",
+   "C++",
+   "Concurrency",
+   "Linux"
+  ],
+  "gaps": [
+   "Observability",
+   "Testing (unit/integration)"
+  ],
+  "roadmap": [
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Testing (unit/integration)",
+    "days": 3,
+    "plan": "JUnit 5 + Mockito, Testcontainers for integration tests; TDD a feature",
+    "link": "https://junit.org/junit5/docs/current/user-guide/"
+   },
+   {
+    "skill": "Concurrency",
+    "days": 3,
+    "plan": "Java concurrency: executors, CompletableFuture, locks vs atomics, virtual threads (Java 21)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Agile%20Robots%20SE%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Agile%20Robots%20SE%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Agile%20Robots%20SE%20C%2B%2B%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Agile%20Robots%20SE"
+  },
+  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
  {
   "id": "agilerobotsse-forward-deployed-ai-engineer-m-f-d-",
@@ -6327,148 +6538,6 @@
    "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Almedia%20technical%20recruiter",
    "manager": "https://www.linkedin.com/search/results/people/?keywords=Almedia%20engineering%20manager",
    "team": "https://www.linkedin.com/search/results/people/?keywords=Almedia%20Full-stack%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Almedia"
-  },
-  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
-  "id": "almedia-backend-engineer",
-  "company": "Almedia",
-  "registerName": "",
-  "title": "Backend Engineer",
-  "city": "Berlin",
-  "url": "https://jobs.ashbyhq.com/almedia/d01f25b1-5e12-4f0d-9356-e60b33187ce7",
-  "type": "Backend",
-  "posted": "2026-06-19",
-  "source": "ash",
-  "country": "Germany",
-  "countries": [
-   "Germany"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "TypeScript",
-   "JavaScript",
-   "Node.js",
-   "MySQL",
-   "MongoDB",
-   "Redis",
-   "RabbitMQ",
-   "gRPC",
-   "GraphQL",
-   "REST APIs",
-   "Microservices",
-   "Docker",
-   "Kubernetes",
-   "CI/CD",
-   "Observability",
-   "System design"
-  ],
-  "have": [
-   "TypeScript",
-   "JavaScript",
-   "REST APIs",
-   "Microservices",
-   "Docker",
-   "Kubernetes",
-   "CI/CD",
-   "System design"
-  ],
-  "gaps": [
-   "Node.js",
-   "MySQL",
-   "MongoDB",
-   "Redis",
-   "RabbitMQ",
-   "gRPC",
-   "GraphQL",
-   "Observability"
-  ],
-  "roadmap": [
-   {
-    "skill": "Node.js",
-    "days": 5,
-    "plan": "Event loop, async/await, Express/Fastify REST API with tests",
-    "link": "https://nodejs.org/en/learn"
-   },
-   {
-    "skill": "MySQL",
-    "days": 2,
-    "plan": "Differences vs PostgreSQL/Oracle: indexes, isolation levels, EXPLAIN",
-    "link": "https://dev.mysql.com/doc/refman/8.0/en/"
-   },
-   {
-    "skill": "MongoDB",
-    "days": 3,
-    "plan": "Document modelling, indexes, aggregation pipeline; MongoDB University basics",
-    "link": "https://learn.mongodb.com/"
-   },
-   {
-    "skill": "Redis",
-    "days": 2,
-    "plan": "Data types, caching patterns, TTL/eviction, pub/sub",
-    "link": "https://redis.io/docs/latest/develop/"
-   },
-   {
-    "skill": "RabbitMQ",
-    "days": 2,
-    "plan": "Exchanges/queues/routing, acks, vs Kafka trade-offs",
-    "link": "https://www.rabbitmq.com/tutorials"
-   },
-   {
-    "skill": "gRPC",
-    "days": 3,
-    "plan": "Protobuf schemas, unary/streaming RPCs; gRPC service in Java",
-    "link": "https://grpc.io/docs/languages/java/quickstart/"
-   },
-   {
-    "skill": "GraphQL",
-    "days": 3,
-    "plan": "Schema, resolvers, N+1 problem; build a small GraphQL API",
-    "link": "https://graphql.org/learn/"
-   },
-   {
-    "skill": "Observability",
-    "days": 3,
-    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
-    "link": "https://opentelemetry.io/docs/"
-   },
-   {
-    "skill": "Kubernetes",
-    "days": 3,
-    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Almedia%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Almedia%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Almedia%20Backend%20engineer"
   },
   "links": {
    "careers": null,
@@ -7067,91 +7136,6 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=ALTEN"
-  },
-  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
-  "id": "amboss-backend-engineer-php-",
-  "company": "AMBOSS",
-  "registerName": "",
-  "title": "Backend Engineer (PHP)",
-  "city": "Berlin Remote - Germany",
-  "url": "https://jobs.ashbyhq.com/amboss/f4703dee-3e96-4979-b1e6-b8925e1bd7a3",
-  "type": "Backend",
-  "posted": "2026-08-10",
-  "source": "ash",
-  "country": "Germany",
-  "countries": [
-   "Germany"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "PHP",
-   "MySQL",
-   "GraphQL",
-   "REST APIs",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "have": [
-   "REST APIs",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "gaps": [
-   "PHP",
-   "MySQL",
-   "GraphQL"
-  ],
-  "roadmap": [
-   {
-    "skill": "PHP",
-    "days": 5,
-    "plan": "Modern PHP 8 syntax, Composer, Laravel/Symfony basics",
-    "link": "https://www.php.net/manual/en/getting-started.php"
-   },
-   {
-    "skill": "MySQL",
-    "days": 2,
-    "plan": "Differences vs PostgreSQL/Oracle: indexes, isolation levels, EXPLAIN",
-    "link": "https://dev.mysql.com/doc/refman/8.0/en/"
-   },
-   {
-    "skill": "GraphQL",
-    "days": 3,
-    "plan": "Schema, resolvers, N+1 problem; build a small GraphQL API",
-    "link": "https://graphql.org/learn/"
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=AMBOSS%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=AMBOSS%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=AMBOSS%20Backend%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=AMBOSS"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
@@ -10230,6 +10214,79 @@
   }
  },
  {
+  "id": "eleqtron-it-systems-platform-engineer-f-m-d-",
+  "company": "eleQtron GmbH",
+  "registerName": "",
+  "title": "IT Systems & Platform Engineer (f/m/d)",
+  "city": "Siegen Germany",
+  "url": "https://eleqtron.recruitee.com/o/it-systems-platform-engineer-fmd",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-10-01",
+  "source": "rec",
+  "country": "Germany",
+  "countries": [
+   "Germany"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": 2,
+  "experience": "2–5 years of hands-on experience in IT, cloud, systems, or platform engineering",
+  "skills": [
+   "Azure",
+   "CI/CD",
+   "Observability"
+  ],
+  "have": [
+   "CI/CD"
+  ],
+  "gaps": [
+   "Azure",
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=eleQtron%20GmbH%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=eleQtron%20GmbH%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=eleQtron%20GmbH%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=eleQtron%20GmbH"
+  },
+  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
   "id": "elevenlabs-applied-ai-engineer",
   "company": "Elevenlabs",
   "registerName": "",
@@ -10288,6 +10345,62 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Elevenlabs"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "elevenlabs-developer-experience-engineer",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Developer Experience Engineer",
+  "city": "Remote Europe United States New York Switzerland United Kingdom",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/d16a7ad6-ffbd-4655-8716-4872263f99ce",
+  "type": "Software",
+  "posted": "2026-08-23",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "LLMs / GenAI"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
  },
  {
   "id": "elevenlabs-full-stack-engineer",
@@ -10425,6 +10538,364 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Elevenlabs"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "elevenlabs-full-stack-engineer-backend-leaning-creative-agents-",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
+  "city": "Remote Europe Switzerland Poland United Kingdom Netherlands",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/35813150-a851-4821-b732-a037b4e6c4fe",
+  "type": "Full-stack",
+  "posted": "2026-10-07",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Observability",
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "have": [
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "gaps": [
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
+  "id": "elevenlabs-full-stack-engineer-frontend-leaning-studio",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Full-Stack Engineer (Frontend Leaning) - Studio",
+  "city": "Remote Europe Switzerland Poland United Kingdom Netherlands",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/e6924f60-c8cc-42b3-9d05-2442ec30e12d",
+  "type": "Frontend",
+  "posted": "2026-11-03",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "LLMs / GenAI"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Frontend%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
+  "id": "elevenlabs-full-stack-engineer-ads-engine",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Full-Stack Engineer - Ads Engine",
+  "city": "Remote Europe Switzerland Poland United Kingdom Netherlands",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/3abf96ca-2937-4290-9d23-5208aece08b2",
+  "type": "Full-stack",
+  "posted": "2026-11-02",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "LLMs / GenAI"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
+  "id": "elevenlabs-full-stack-engineer-elevenapi",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Full-Stack Engineer - ElevenAPI",
+  "city": "Remote Europe Switzerland Poland United Kingdom France",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/108c99e6-ba2b-44a0-b830-7d535e14a152",
+  "type": "Full-stack",
+  "posted": "2026-11-09",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "LLMs / GenAI"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
+  "id": "elevenlabs-full-stack-engineer-elevencreative-enterprise",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Full-Stack Engineer - ElevenCreative Enterprise",
+  "city": "Remote Europe Switzerland Poland United Kingdom Netherlands",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/34dbe44c-9815-40b2-81f4-91c607fd84b2",
+  "type": "Full-stack",
+  "posted": "2026-10-29",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "LLMs / GenAI"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
+  "id": "elevenlabs-full-stack-engineer-productions",
+  "company": "Elevenlabs",
+  "registerName": "",
+  "title": "Full-Stack Engineer - Productions",
+  "city": "Remote Croatia Switzerland Poland United Kingdom Amsterdam",
+  "url": "https://jobs.ashbyhq.com/ElevenLabs/10e6475e-67ef-4621-8718-7b087c354651",
+  "type": "Full-stack",
+  "posted": "2026-11-02",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Rust",
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "have": [
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "gaps": [
+   "Rust"
+  ],
+  "roadmap": [
+   {
+    "skill": "Rust",
+    "days": 14,
+    "plan": "The Rust Book ch.1-10 (ownership, borrowing); write a CLI tool",
+    "link": "https://doc.rust-lang.org/book/"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Elevenlabs%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Elevenlabs"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
  },
  {
   "id": "enactintelligence-platforms-and-infrastructure-engineer",
@@ -10906,6 +11377,75 @@
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
  {
+  "id": "exa-software-engineer-knowledge-engine-data-infrastructure",
+  "company": "Exa",
+  "registerName": "",
+  "title": "Software Engineer, Knowledge Engine  – Data Infrastructure",
+  "city": "Zurich",
+  "url": "https://jobs.ashbyhq.com/exa/aafbd05e-730a-4926-b693-3204c15614cd",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-11-09",
+  "source": "ash",
+  "country": "Switzerland",
+  "countries": [
+   "Switzerland"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "Distributed systems",
+   "Spark",
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "Python",
+   "Distributed systems",
+   "LLMs / GenAI"
+  ],
+  "gaps": [
+   "Spark"
+  ],
+  "roadmap": [
+   {
+    "skill": "Spark",
+    "days": 7,
+    "plan": "RDD/DataFrame API, partitions, shuffles; PySpark exercises",
+    "link": "https://spark.apache.org/docs/latest/quick-start.html"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Exa%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Exa%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Exa%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=106693272&keywords=Exa"
+  },
+  "visaNote": "Hard route: non-EU hires are quota-limited and the employer must justify hiring from outside the EU/EFTA. Confirm they sponsor before spending time here."
+ },
+ {
   "id": "flexport-software-engineer-ii-devex",
   "company": "Flexport",
   "registerName": "Flexport Customs B.V.",
@@ -11100,10 +11640,10 @@
   "registerName": "",
   "title": "Software Engineer (f/m/d)",
   "city": "Berlin, DE",
-  "url": "https://jobs.ashbyhq.com/focused/1a00038a-c270-4cf2-8ced-73896fe64a06",
+  "url": "https://www.arbeitnow.com/jobs/companies/focused/software-engineer-berlin-184324",
   "type": "Software",
-  "posted": "2026-11-02",
-  "source": "ash",
+  "posted": "2026-11-03",
+  "source": "arbeitnow",
   "country": "Germany",
   "countries": [
    "Germany"
@@ -13200,6 +13740,85 @@
   }
  },
  {
+  "id": "lefebvresdu-ai-engineer-agentic-ai-",
+  "company": "Lefebvre Sdu",
+  "registerName": "Lefebvre Sdu B.V.",
+  "title": "AI Engineer (Agentic AI)",
+  "city": "Den Haag Nederland",
+  "url": "https://werkenbij.sdu.nl/o/ai-engineer-agentic-ai",
+  "type": "AI / ML",
+  "posted": "2026-10-16",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "At Lefebvre Sdu, we’ve been building that knowledge for 200 years",
+  "skills": [
+   "Python",
+   "PostgreSQL",
+   "REST APIs",
+   "Kubernetes",
+   "Observability",
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "Python",
+   "PostgreSQL",
+   "REST APIs",
+   "Kubernetes",
+   "LLMs / GenAI"
+  ],
+  "gaps": [
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Lefebvre%20Sdu%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Lefebvre%20Sdu%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Lefebvre%20Sdu%20AI%20/%20ML%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Lefebvre%20Sdu"
+  }
+ },
+ {
   "id": "lio-site-reliability-engineer-sre-all-genders-",
   "company": "Lio (formerly askLio)",
   "registerName": "",
@@ -13279,6 +13898,67 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Lio%20%28formerly%20askLio%29"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "lleverage-forward-deployed-ai-engineer",
+  "company": "Lleverage",
+  "registerName": "Lleverage B.V.",
+  "title": "Forward Deployed AI Engineer",
+  "city": "Amsterdam Netherlands",
+  "url": "https://lleverage.recruitee.com/o/forward-deployed-ai-engineer-1",
+  "type": "AI / ML",
+  "posted": "2026-10-30",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "TypeScript",
+   "REST APIs",
+   "LLMs / GenAI"
+  ],
+  "have": [
+   "Python",
+   "TypeScript",
+   "REST APIs",
+   "LLMs / GenAI"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Lleverage%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Lleverage%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Lleverage%20AI%20/%20ML%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Lleverage"
+  }
  },
  {
   "id": "mayflower-software-entwickler-in-mit-schwerpunkt-genai",
@@ -13391,6 +14071,202 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Microagi"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "mijndomein-full-stack-engineer",
+  "company": "Mijndomein",
+  "registerName": "Mijndomein B.V.",
+  "title": "Full-Stack Engineer",
+  "city": "Almere Nederland",
+  "url": "https://tsg.careers/o/full-stack-engineer-1",
+  "type": "Full-stack",
+  "posted": "2026-09-14",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Java",
+   "TypeScript",
+   "JavaScript",
+   "Node.js",
+   "React",
+   "SQL",
+   "RabbitMQ",
+   "GraphQL",
+   "Microservices",
+   "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "System design"
+  ],
+  "have": [
+   "Java",
+   "TypeScript",
+   "JavaScript",
+   "React",
+   "SQL",
+   "Microservices",
+   "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "System design"
+  ],
+  "gaps": [
+   "Node.js",
+   "RabbitMQ",
+   "GraphQL"
+  ],
+  "roadmap": [
+   {
+    "skill": "Node.js",
+    "days": 5,
+    "plan": "Event loop, async/await, Express/Fastify REST API with tests",
+    "link": "https://nodejs.org/en/learn"
+   },
+   {
+    "skill": "RabbitMQ",
+    "days": 2,
+    "plan": "Exchanges/queues/routing, acks, vs Kafka trade-offs",
+    "link": "https://www.rabbitmq.com/tutorials"
+   },
+   {
+    "skill": "GraphQL",
+    "days": 3,
+    "plan": "Schema, resolvers, N+1 problem; build a small GraphQL API",
+    "link": "https://graphql.org/learn/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Mijndomein%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Mijndomein%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Mijndomein%20Full-stack%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Mijndomein"
+  }
+ },
+ {
+  "id": "mijndomein-platform-engineer",
+  "company": "Mijndomein",
+  "registerName": "Mijndomein B.V.",
+  "title": "Platform Engineer",
+  "city": "Amsterdam Nederland",
+  "url": "https://tsg.careers/o/platform-engineer",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-05-05",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": 2,
+  "experience": "Required, both profiles: - 2–4 years in production engineering — you’ve shipped and operated something real - Workin",
+  "skills": [
+   "Python",
+   "Go",
+   "TypeScript",
+   "React",
+   "PostgreSQL",
+   "Distributed systems",
+   "Kubernetes",
+   "Observability",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "TypeScript",
+   "React",
+   "PostgreSQL",
+   "Distributed systems",
+   "Kubernetes",
+   "System design"
+  ],
+  "gaps": [
+   "Go",
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Mijndomein%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Mijndomein%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Mijndomein%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Mijndomein"
+  }
  },
  {
   "id": "monumental-software-engineer-autonomy-robotics",
@@ -15497,6 +16373,78 @@
   }
  },
  {
+  "id": "portbase-java-developer-english-",
+  "company": "Portbase",
+  "registerName": "Portbase B.V.",
+  "title": "Java Developer (English)",
+  "city": "Rotterdam Nederland",
+  "url": "https://werkenbij.portbase.com/o/java-developer-english",
+  "type": "Java",
+  "posted": "2026-05-28",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "Portbase has been around for 21 years and we are proud of that",
+  "skills": [
+   "Java",
+   "AWS",
+   "Testing (unit/integration)"
+  ],
+  "have": [
+   "Java"
+  ],
+  "gaps": [
+   "AWS",
+   "Testing (unit/integration)"
+  ],
+  "roadmap": [
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "Testing (unit/integration)",
+    "days": 3,
+    "plan": "JUnit 5 + Mockito, Testcontainers for integration tests; TDD a feature",
+    "link": "https://junit.org/junit5/docs/current/user-guide/"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Portbase%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Portbase%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Portbase%20Java%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Portbase"
+  }
+ },
+ {
   "id": "powerus-full-stack-software-engineer-f-m-d-",
   "company": "PowerUs",
   "registerName": "",
@@ -16581,6 +17529,95 @@
   }
  },
  {
+  "id": "rotate-junior-data-engineer",
+  "company": "Rotate Group",
+  "registerName": "Rotate Group B.V.",
+  "title": "Junior Data Engineer",
+  "city": "Utrecht Nederland",
+  "url": "https://careers.letsrotate.com/o/junior-data-engineer-3",
+  "type": "Data",
+  "posted": "2026-10-22",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "Go",
+   "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "AWS",
+   "CI/CD"
+  ],
+  "have": [
+   "Python",
+   "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "CI/CD"
+  ],
+  "gaps": [
+   "Go",
+   "AWS"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [
+    "careers@letsrotate.com"
+   ],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Rotate%20Group%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Rotate%20Group%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Rotate%20Group%20Data%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Rotate%20Group"
+  }
+ },
+ {
   "id": "saltocloudworks-back-end-engineer",
   "company": "Salto CloudWorks",
   "registerName": "Salto CloudWorks B.V.",
@@ -16863,85 +17900,6 @@
   }
  },
  {
-  "id": "se3-embedded-software-firmware-engineer",
-  "company": "Se3",
-  "registerName": "",
-  "title": "Embedded Software / Firmware Engineer",
-  "city": "Undisclosed test site 35km from Munich",
-  "url": "https://jobs.ashbyhq.com/se3/cf373e6c-5d3c-4882-bddc-fa3867066ab0",
-  "type": "Software",
-  "posted": "2026-04-16",
-  "source": "ash",
-  "country": "Germany",
-  "countries": [
-   "Germany"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "strong",
-  "years": 2,
-  "experience": "- You bring 2+ years of hands-on experience in low-level software or firmware development for embedd",
-  "skills": [
-   "Python",
-   "Go",
-   "Linux",
-   "LLMs / GenAI",
-   "System design",
-   "Testing (unit/integration)"
-  ],
-  "have": [
-   "Python",
-   "Linux",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "gaps": [
-   "Go",
-   "Testing (unit/integration)"
-  ],
-  "roadmap": [
-   {
-    "skill": "Go",
-    "days": 10,
-    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
-    "link": "https://go.dev/tour/"
-   },
-   {
-    "skill": "Testing (unit/integration)",
-    "days": 3,
-    "plan": "JUnit 5 + Mockito, Testcontainers for integration tests; TDD a feature",
-    "link": "https://junit.org/junit5/docs/current/user-guide/"
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Se3%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Se3%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Se3%20Software%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Se3"
-  },
-  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
   "id": "se3-forward-deployed-engineer-applied-ai",
   "company": "Se3",
   "registerName": "",
@@ -17147,75 +18105,6 @@
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
  {
-  "id": "sensmore-robotics-engineer-ai",
-  "company": "Sensmore",
-  "registerName": "",
-  "title": "Robotics Engineer - AI",
-  "city": "Potsdam Office Berlin Office",
-  "url": "https://jobs.ashbyhq.com/sensmore/cf4a5e3a-3783-4715-a462-eb95f613017d",
-  "type": "AI / ML",
-  "posted": "2026-03-14",
-  "source": "ash",
-  "country": "Germany",
-  "countries": [
-   "Germany"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "Python",
-   "C++",
-   "PyTorch",
-   "TensorFlow"
-  ],
-  "have": [
-   "Python",
-   "C++",
-   "TensorFlow"
-  ],
-  "gaps": [
-   "PyTorch"
-  ],
-  "roadmap": [
-   {
-    "skill": "PyTorch",
-    "days": 7,
-    "plan": "Tensors, autograd, training loop; fine-tune a small model",
-    "link": "https://pytorch.org/tutorials/"
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": true,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Sensmore%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Sensmore%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Sensmore%20AI%20/%20ML%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Sensmore"
-  },
-  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
   "id": "sidekicknetwork-oracle-fusion-hcm-time-labor-fast-formula-developer-ai-assisted-",
   "company": "Sidekick Network GmbH & Co. KG",
   "registerName": "",
@@ -17341,108 +18230,6 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Sierra"
-  },
-  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
-  "id": "sixt-full-stack-engineer-fleet-management-m-f-d-",
-  "company": "SIXT",
-  "registerName": "",
-  "title": "Full Stack Engineer — Fleet Management (m/f/d)",
-  "city": "Munich Germany",
-  "url": "https://jobs.smartrecruiters.com/sixt/744000160268848",
-  "type": "Full-stack",
-  "posted": "2026-11-06",
-  "source": "sr",
-  "country": "Germany",
-  "countries": [
-   "Germany"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "strong",
-  "years": null,
-  "experience": "No minimum stated",
-  "skills": [
-   "Java",
-   "Spring Boot",
-   "TypeScript",
-   "React",
-   "Ruby",
-   "Microservices",
-   "Distributed systems",
-   "AWS",
-   "Observability",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "have": [
-   "Java",
-   "Spring Boot",
-   "TypeScript",
-   "React",
-   "Microservices",
-   "Distributed systems",
-   "LLMs / GenAI",
-   "System design"
-  ],
-  "gaps": [
-   "Ruby",
-   "AWS",
-   "Observability"
-  ],
-  "roadmap": [
-   {
-    "skill": "Ruby",
-    "days": 7,
-    "plan": "Ruby basics + Rails guides: MVC, ActiveRecord, testing",
-    "link": "https://guides.rubyonrails.org/getting_started.html"
-   },
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "Observability",
-    "days": 3,
-    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
-    "link": "https://opentelemetry.io/docs/"
-   },
-   {
-    "skill": "Spring Boot",
-    "days": 3,
-    "plan": "Spring Boot 3: dependency injection, transactions, WebFlux/Reactor basics, testing with @SpringBootTest",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=SIXT%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=SIXT%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=SIXT%20Full-stack%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=SIXT"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
@@ -18314,7 +19101,7 @@
   "city": "Munich, Bavaria, Germany",
   "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/5027395101",
   "type": "Platform / DevOps / SRE",
-  "posted": "2026-11-04",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -18405,6 +19192,70 @@
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
  {
+  "id": "skdse-ew-network-embedded-software-engineer-all-genders-",
+  "company": "STARK",
+  "registerName": "",
+  "title": "EW Network & Embedded Software Engineer (All Genders)",
+  "city": "Berlin, Germany",
+  "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/5032450101",
+  "type": "Software",
+  "posted": "2026-11-10",
+  "source": "gh",
+  "country": "Germany",
+  "countries": [
+   "Germany"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Python",
+   "C++",
+   "REST APIs",
+   "Linux",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "C++",
+   "REST APIs",
+   "Linux",
+   "System design"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=STARK%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=STARK%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=STARK%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=STARK"
+  },
+  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
   "id": "skdse-junior-software-engineer-robotics-swarming-all-genders-",
   "company": "STARK",
   "registerName": "",
@@ -18412,7 +19263,7 @@
   "city": "Munich, Bavaria, Germany",
   "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/4981493101",
   "type": "Software",
-  "posted": "2026-11-06",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -18485,7 +19336,7 @@
   "city": "Berlin, Germany",
   "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/4994639101",
   "type": "Software",
-  "posted": "2026-10-29",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -18620,6 +19471,163 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Statista"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "stream-software-engineer-see-post-",
+  "company": "Stream",
+  "registerName": "",
+  "title": "Software Engineer (see post)",
+  "city": "Amsterdam (NL), Skopje (North Macedonia)",
+  "url": "https://news.ycombinator.com/item?id=50339750",
+  "type": "Software",
+  "posted": "2026-11-02",
+  "source": "hn-whoishiring",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": false,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Go"
+  ],
+  "have": [],
+  "gaps": [
+   "Go"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": true,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [
+    "pauli.ojala@getstream.io"
+   ],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Stream%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Stream%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Stream%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Stream"
+  },
+  "visaNote": "Board matched to the IND register by a partial name (). Check it is the same company before relying on sponsorship."
+ },
+ {
+  "id": "studytube-cloud-engineer",
+  "company": "Studytube",
+  "registerName": "Studytube B.V.",
+  "title": "Cloud Engineer",
+  "city": "Amsterdam Nederland",
+  "url": "https://jobs.studytube.nl/o/cloud-engineer",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-11-03",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Kubernetes",
+   "Terraform",
+   "AWS",
+   "Azure",
+   "CI/CD",
+   "System design"
+  ],
+  "have": [
+   "Kubernetes",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [
+   "Terraform",
+   "AWS",
+   "Azure"
+  ],
+  "roadmap": [
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [
+    "jobs@studytube.nl"
+   ],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Studytube%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Studytube%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Studytube%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Studytube"
+  }
  },
  {
   "id": "teero-software-engineer",
@@ -19106,6 +20114,158 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=TRG%20Global"
+  }
+ },
+ {
+  "id": "ventiontechnologies-software-engineer",
+  "company": "Vention Technologies",
+  "registerName": "Vention Technologies B.V.",
+  "title": "Software Engineer",
+  "city": "Eindhoven Netherlands",
+  "url": "https://jobs.vention.nl/o/software-engineer",
+  "type": "Software",
+  "posted": "2026-03-27",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": 2,
+  "experience": "2+ years of experience in embedded systems programming (in low-level C) required",
+  "skills": [
+   "Go",
+   "C#/.NET",
+   "Azure",
+   "System design"
+  ],
+  "have": [
+   "System design"
+  ],
+  "gaps": [
+   "Go",
+   "C#/.NET",
+   "Azure"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "C#/.NET",
+    "days": 10,
+    "plan": "C# fundamentals; ASP.NET Core minimal API; EF Core basics",
+    "link": "https://learn.microsoft.com/dotnet/csharp/"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Vention%20Technologies%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Vention%20Technologies%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Vention%20Technologies%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Vention%20Technologies"
+  }
+ },
+ {
+  "id": "vesper-medior-software-developer",
+  "company": "Vesper",
+  "registerName": "Vesper B.V.",
+  "title": "Medior Software Developer",
+  "city": "Amsterdam Netherlands",
+  "url": "https://jobs.vespertool.com/o/medior-software-developer-3",
+  "type": "Software",
+  "posted": "2026-11-04",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": 2,
+  "experience": "2-4 years experience in back-end development",
+  "skills": [
+   "PHP",
+   "MySQL",
+   "CI/CD"
+  ],
+  "have": [
+   "CI/CD"
+  ],
+  "gaps": [
+   "PHP",
+   "MySQL"
+  ],
+  "roadmap": [
+   {
+    "skill": "PHP",
+    "days": 5,
+    "plan": "Modern PHP 8 syntax, Composer, Laravel/Symfony basics",
+    "link": "https://www.php.net/manual/en/getting-started.php"
+   },
+   {
+    "skill": "MySQL",
+    "days": 2,
+    "plan": "Differences vs PostgreSQL/Oracle: indexes, isolation levels, EXPLAIN",
+    "link": "https://dev.mysql.com/doc/refman/8.0/en/"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Vesper%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Vesper%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Vesper%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Vesper"
   }
  },
  {
@@ -19638,6 +20798,281 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=VW%20Consultancy"
+  }
+ },
+ {
+  "id": "wefabricate-backend-software-engineer",
+  "company": "Wefabricate HR",
+  "registerName": "Wefabricate HR B.V.",
+  "title": "Backend Software Engineer",
+  "city": "Duizel Nederland",
+  "url": "https://wefabricate.recruitee.com/o/backend-software-engineer",
+  "type": "Backend",
+  "posted": "2026-07-06",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [],
+  "have": [],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20Backend%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Wefabricate%20HR"
+  }
+ },
+ {
+  "id": "wefabricate-data-platform-engineer",
+  "company": "Wefabricate HR",
+  "registerName": "Wefabricate HR B.V.",
+  "title": "Data Platform Engineer",
+  "city": "Duizel Nederland",
+  "url": "https://wefabricate.recruitee.com/o/data-platform-engineer",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-03-25",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [],
+  "have": [],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Wefabricate%20HR"
+  }
+ },
+ {
+  "id": "wefabricate-it-devops-engineer",
+  "company": "Wefabricate HR",
+  "registerName": "Wefabricate HR B.V.",
+  "title": "IT & DevOps Engineer",
+  "city": "Duizel Nederland",
+  "url": "https://wefabricate.recruitee.com/o/it-devops-engineer-1",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-01-21",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": 2,
+  "experience": "2–5+ years of experience across IT engineering, systems administration, DevOps, or a simil",
+  "skills": [
+   "Python",
+   "Docker",
+   "Kubernetes",
+   "Terraform",
+   "Azure",
+   "CI/CD",
+   "Observability",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "Docker",
+   "Kubernetes",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [
+   "Terraform",
+   "Azure",
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Wefabricate%20HR"
+  }
+ },
+ {
+  "id": "wefabricate-software-engineer",
+  "company": "Wefabricate HR",
+  "registerName": "Wefabricate HR B.V.",
+  "title": "Software Engineer",
+  "city": "Best Nederland",
+  "url": "https://wefabricate.recruitee.com/o/software-engineer",
+  "type": "Software",
+  "posted": "2025-11-27",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "strong",
+  "years": null,
+  "experience": "No minimum stated",
+  "skills": [
+   "Go",
+   "C#/.NET",
+   "JavaScript",
+   "React",
+   "CI/CD",
+   "System design"
+  ],
+  "have": [
+   "JavaScript",
+   "React",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [
+   "Go",
+   "C#/.NET"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "C#/.NET",
+    "days": 10,
+    "plan": "C# fundamentals; ASP.NET Core minimal API; EF Core basics",
+    "link": "https://learn.microsoft.com/dotnet/csharp/"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Wefabricate%20HR%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Wefabricate%20HR"
   }
  },
  {
@@ -22811,6 +24246,107 @@
   }
  },
  {
+  "id": "datasnipper-mid-level-backend-engineer-iam-",
+  "company": "DataSnipper",
+  "registerName": "DataSnipper B.V.",
+  "title": "Mid-level Backend Engineer, IAM",
+  "city": "Amsterdam",
+  "url": "https://jobs.ashbyhq.com/datasnipper/432b5ea3-4f89-4f07-9134-8b69e1dd826d",
+  "type": "Backend",
+  "posted": "2026-11-10",
+  "source": "ash",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "good",
+  "years": 3,
+  "experience": "- 3–6 years of backend development experience with OOP languages (C#, Java, Python, TypeScr",
+  "skills": [
+   "Java",
+   "Python",
+   "C#/.NET",
+   "TypeScript",
+   "Microservices",
+   "Docker",
+   "Kubernetes",
+   "AWS",
+   "Azure",
+   "CI/CD",
+   "System design"
+  ],
+  "have": [
+   "Java",
+   "Python",
+   "TypeScript",
+   "Microservices",
+   "Docker",
+   "Kubernetes",
+   "CI/CD",
+   "System design"
+  ],
+  "gaps": [
+   "C#/.NET",
+   "AWS",
+   "Azure"
+  ],
+  "roadmap": [
+   {
+    "skill": "C#/.NET",
+    "days": 10,
+    "plan": "C# fundamentals; ASP.NET Core minimal API; EF Core basics",
+    "link": "https://learn.microsoft.com/dotnet/csharp/"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=DataSnipper%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=DataSnipper%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=DataSnipper%20Backend%20engineer"
+  },
+  "links": {
+   "careers": "https://www.datasnipper.com/careers",
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=DataSnipper"
+  }
+ },
+ {
   "id": "dawnaerospace-full-stack-web-developer",
   "company": "Dawn Aerospace",
   "registerName": "Dawn Aerospace Nederland B.V.",
@@ -23136,11 +24672,11 @@
   "company": "eleQtron GmbH",
   "registerName": "",
   "title": "Cloud Engineer - Quantum Computing (f/m/d)",
-  "city": "Siegen, Nordrhein-Westfalen, Germany",
-  "url": "https://www.arbeitnow.com/jobs/companies/eleqtron-gmbh/cloud-engineer-quantum-computing-siegen-77193",
+  "city": "Siegen Germany",
+  "url": "https://eleqtron.recruitee.com/o/cloud-engineer-quantum-computing-fmd",
   "type": "Platform / DevOps / SRE",
-  "posted": "2026-11-04",
-  "source": "arbeitnow",
+  "posted": "2026-09-25",
+  "source": "rec",
   "country": "Germany",
   "countries": [
    "Germany"
@@ -23459,7 +24995,7 @@
   "city": "Berlin",
   "url": "https://flix.careers/job/8690650002?gh_jid=8690650002",
   "type": "Platform / DevOps / SRE",
-  "posted": "2026-10-13",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -23809,6 +25345,109 @@
    "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Funda%20Real%20Estate%20technical%20recruiter",
    "manager": "https://www.linkedin.com/search/results/people/?keywords=Funda%20Real%20Estate%20engineering%20manager",
    "team": "https://www.linkedin.com/search/results/people/?keywords=Funda%20Real%20Estate%20Backend%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Funda%20Real%20Estate"
+  }
+ },
+ {
+  "id": "funda-site-reliability-engineer",
+  "company": "Funda Real Estate",
+  "registerName": "Funda Real Estate B.V.",
+  "title": "Site Reliability Engineer",
+  "city": "Amsterdam Netherlands",
+  "url": "https://jobs.funda.nl/o/site-reliability-engineer",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-11-10",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "good",
+  "years": 3,
+  "experience": "The opportunity to take an (unpaid) 3-month sabbatical every 3 years",
+  "skills": [
+   "Python",
+   "Go",
+   "C#/.NET",
+   "SQL",
+   "Kubernetes",
+   "Terraform",
+   "Azure",
+   "CI/CD",
+   "Linux"
+  ],
+  "have": [
+   "Python",
+   "SQL",
+   "Kubernetes",
+   "CI/CD",
+   "Linux"
+  ],
+  "gaps": [
+   "Go",
+   "C#/.NET",
+   "Terraform",
+   "Azure"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "C#/.NET",
+    "days": 10,
+    "plan": "C# fundamentals; ASP.NET Core minimal API; EF Core basics",
+    "link": "https://learn.microsoft.com/dotnet/csharp/"
+   },
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Funda%20Real%20Estate%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Funda%20Real%20Estate%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Funda%20Real%20Estate%20Platform%20/%20DevOps%20/%20SRE%20engineer"
   },
   "links": {
    "careers": null,
@@ -25919,6 +27558,96 @@
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
  {
+  "id": "robin-radar-devops-engineer",
+  "company": "Robin Radar",
+  "registerName": "",
+  "title": "DevOps Engineer",
+  "city": "Delft",
+  "url": "https://jobs.ashbyhq.com/robin-radar/e3a49b20-7c69-48f0-b55b-88ef41983c92",
+  "type": "Platform / DevOps / SRE",
+  "posted": "2026-10-29",
+  "source": "ash",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": false,
+  "fit": "good",
+  "years": 3,
+  "experience": "- Over 3 years of experience in DevOps or similar role",
+  "skills": [
+   "Python",
+   "Docker",
+   "Kubernetes",
+   "Terraform",
+   "CI/CD",
+   "Linux",
+   "Observability",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "Docker",
+   "Kubernetes",
+   "CI/CD",
+   "Linux",
+   "System design"
+  ],
+  "gaps": [
+   "Terraform",
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Terraform",
+    "days": 4,
+    "plan": "HCL, providers, state, modules; provision a small AWS stack",
+    "link": "https://developer.hashicorp.com/terraform/tutorials"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Robin%20Radar%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Robin%20Radar%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Robin%20Radar%20Platform%20/%20DevOps%20/%20SRE%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Robin%20Radar"
+  },
+  "visaNote": "Board matched to the IND register by a partial name (). Check it is the same company before relying on sponsorship."
+ },
+ {
   "id": "se3-uav-software-and-controls-engineer",
   "company": "Se3",
   "registerName": "",
@@ -25982,114 +27711,6 @@
   "links": {
    "careers": null,
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Se3"
-  },
-  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
-  "id": "sensmore-ml-ops-data-engineer-robotics",
-  "company": "Sensmore",
-  "registerName": "",
-  "title": "ML Ops / Data Engineer - Robotics",
-  "city": "Potsdam Office Berlin Office",
-  "url": "https://jobs.ashbyhq.com/sensmore/9186b8bd-96af-4f83-8e36-216479721a2d",
-  "type": "AI / ML",
-  "posted": "2026-03-06",
-  "source": "ash",
-  "country": "Germany",
-  "countries": [
-   "Germany"
-  ],
-  "sponsor": false,
-  "sponsorChecked": null,
-  "fit": "good",
-  "years": 3,
-  "experience": "- 3+ years of hands-on experience building production data pipelines in the cloud (AWS, GC",
-  "skills": [
-   "Python",
-   "SQL",
-   "Distributed systems",
-   "Docker",
-   "Kubernetes",
-   "Terraform",
-   "AWS",
-   "GCP",
-   "Azure",
-   "CI/CD",
-   "System design"
-  ],
-  "have": [
-   "Python",
-   "SQL",
-   "Distributed systems",
-   "Docker",
-   "Kubernetes",
-   "CI/CD",
-   "System design"
-  ],
-  "gaps": [
-   "Terraform",
-   "AWS",
-   "GCP",
-   "Azure"
-  ],
-  "roadmap": [
-   {
-    "skill": "Terraform",
-    "days": 4,
-    "plan": "HCL, providers, state, modules; provision a small AWS stack",
-    "link": "https://developer.hashicorp.com/terraform/tutorials"
-   },
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "GCP",
-    "days": 7,
-    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
-    "link": "https://cloud.google.com/learn/training"
-   },
-   {
-    "skill": "Azure",
-    "days": 7,
-    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
-    "link": "https://learn.microsoft.com/training/azure/"
-   },
-   {
-    "skill": "Kubernetes",
-    "days": 3,
-    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "System design",
-    "days": 3,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": true,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Sensmore%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Sensmore%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Sensmore%20AI%20/%20ML%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Sensmore"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
@@ -26409,14 +28030,14 @@
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
  },
  {
-  "id": "skdse-flight-dynamics-data-engineer-all-genders-",
+  "id": "skdse-data-engineer-all-genders-",
   "company": "STARK",
   "registerName": "",
-  "title": "Flight Dynamics Data Engineer (All Genders)",
+  "title": "Data Engineer (All Genders)",
   "city": "Munich, Bavaria, Germany",
   "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/5004028101",
   "type": "Data",
-  "posted": "2026-10-29",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -26530,7 +28151,7 @@
   "city": "Germany; Munich, Bavaria, Germany",
   "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/5013811101",
   "type": "Software",
-  "posted": "2026-11-05",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -27870,6 +29491,172 @@
   }
  },
  {
+  "id": "zoi-data-engineer-m-f-d-",
+  "company": "Zoi",
+  "registerName": "",
+  "title": "Data Engineer (m/f/d)",
+  "city": "Berlin Germany",
+  "url": "https://meet.zoi.tech/o/data-engineer-mfd-3",
+  "type": "Data",
+  "posted": "2026-10-13",
+  "source": "rec",
+  "country": "Germany",
+  "countries": [
+   "Germany"
+  ],
+  "sponsor": false,
+  "sponsorChecked": null,
+  "fit": "good",
+  "years": 3,
+  "experience": "Professional experience : Min 3 years of experience as a Data Engineer, working in Data modelling, BigQuery, GCP",
+  "skills": [
+   "SQL",
+   "GCP",
+   "System design"
+  ],
+  "have": [
+   "SQL",
+   "System design"
+  ],
+  "gaps": [
+   "GCP"
+  ],
+  "roadmap": [
+   {
+    "skill": "GCP",
+    "days": 7,
+    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
+    "link": "https://cloud.google.com/learn/training"
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Zoi%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Zoi%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Zoi%20Data%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Zoi"
+  },
+  "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "databricks-ai-forward-deployed-engineer-netherlands",
+  "company": "databricks",
+  "registerName": "",
+  "title": "AI Forward Deployed Engineer - Netherlands",
+  "city": "Amsterdam",
+  "url": "https://www.arbeitnow.nl/jobs/companies/databricks/ai-forward-deployed-engineer-netherlands-amsterdam-272991",
+  "type": "AI / ML",
+  "posted": "2026-11-04",
+  "source": "arbeitnow",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "stretch",
+  "years": 4,
+  "experience": "Min 4 years' experience",
+  "skills": [
+   "Distributed systems",
+   "AWS",
+   "GCP",
+   "Azure",
+   "Spark",
+   "LLMs / GenAI",
+   "PyTorch"
+  ],
+  "have": [
+   "Distributed systems",
+   "LLMs / GenAI"
+  ],
+  "gaps": [
+   "AWS",
+   "GCP",
+   "Azure",
+   "Spark",
+   "PyTorch"
+  ],
+  "roadmap": [
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "GCP",
+    "days": 7,
+    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
+    "link": "https://cloud.google.com/learn/training"
+   },
+   {
+    "skill": "Azure",
+    "days": 7,
+    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
+    "link": "https://learn.microsoft.com/training/azure/"
+   },
+   {
+    "skill": "Spark",
+    "days": 7,
+    "plan": "RDD/DataFrame API, partitions, shuffles; PySpark exercises",
+    "link": "https://spark.apache.org/docs/latest/quick-start.html"
+   },
+   {
+    "skill": "PyTorch",
+    "days": 7,
+    "plan": "Tensors, autograd, training loop; fine-tune a small model",
+    "link": "https://pytorch.org/tutorials/"
+   },
+   {
+    "skill": "System design",
+    "days": 5,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": true,
+  "visaSignal": true,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=databricks%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=databricks%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=databricks%20AI%20/%20ML%20engineer"
+  },
+  "links": {
+   "careers": "https://www.databricks.com/company/careers/open-positions",
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=databricks"
+  },
+  "visaNote": "This posting mentions visa or relocation support."
+ },
+ {
   "id": "optiverus-software-engineer-automated-trading-systems",
   "company": "Optiver",
   "registerName": "",
@@ -27948,68 +29735,6 @@
   "links": {
    "careers": "https://optiver.com/working-at-optiver/career-opportunities/",
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Optiver"
-  },
-  "visaNote": "This posting mentions visa or relocation support."
- },
- {
-  "id": "workwize-forward-deployed-engineer-full-stack-client-facing-amsterdam-hybrid-pre",
-  "company": "Workwize",
-  "registerName": "Workwize B.V.",
-  "title": "Forward Deployed Engineer (Full-Stack, Client-Facing) | Amsterdam Hybrid preference, EU  / UK optional",
-  "city": "Amsterdam",
-  "url": "https://job-boards.eu.greenhouse.io/workwize/jobs/5001407101",
-  "type": "Full-stack",
-  "posted": "2026-10-16",
-  "source": "gh",
-  "country": "Netherlands",
-  "countries": [
-   "Netherlands"
-  ],
-  "sponsor": true,
-  "sponsorChecked": true,
-  "fit": "stretch",
-  "years": 4,
-  "experience": "Around 4+ years of building and shipping software that real users depend on",
-  "skills": [
-   "Go"
-  ],
-  "have": [],
-  "gaps": [
-   "Go"
-  ],
-  "roadmap": [
-   {
-    "skill": "Go",
-    "days": 10,
-    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
-    "link": "https://go.dev/tour/"
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": true,
-  "visaSignal": true,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Workwize%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Workwize%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Workwize%20Full-stack%20engineer"
-  },
-  "links": {
-   "careers": null,
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Workwize"
   },
   "visaNote": "This posting mentions visa or relocation support."
  },
@@ -28317,14 +30042,14 @@
  },
  {
   "id": "databricks-ai-forward-deployed-engineer-germany",
-  "company": "Databricks",
-  "registerName": "Databricks",
+  "company": "databricks",
+  "registerName": "",
   "title": "AI Forward Deployed Engineer - Germany",
-  "city": "Munich, Germany",
-  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8930374002",
+  "city": "Munich",
+  "url": "https://www.arbeitnow.com/jobs/companies/databricks/ai-forward-deployed-engineer-germany-munich-34063",
   "type": "AI / ML",
-  "posted": "2026-11-05",
-  "source": "gh",
+  "posted": "2026-11-04",
+  "source": "arbeitnow",
   "country": "Germany",
   "countries": [
    "Germany"
@@ -28404,113 +30129,15 @@
   "visaSignal": false,
   "contacts": {
    "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20AI%20/%20ML%20engineer"
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=databricks%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=databricks%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=databricks%20AI%20/%20ML%20engineer"
   },
   "links": {
    "careers": "https://www.databricks.com/company/careers/open-positions",
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Databricks"
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=databricks"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
- },
- {
-  "id": "databricks-ai-forward-deployed-engineer-netherlands",
-  "company": "Databricks",
-  "registerName": "Databricks",
-  "title": "AI Forward Deployed Engineer - Netherlands",
-  "city": "Amsterdam, Netherlands",
-  "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8930378002",
-  "type": "AI / ML",
-  "posted": "2026-11-05",
-  "source": "gh",
-  "country": "Netherlands",
-  "countries": [
-   "Netherlands"
-  ],
-  "sponsor": true,
-  "sponsorChecked": true,
-  "fit": "stretch",
-  "years": 4,
-  "experience": "Min 4 years' experience",
-  "skills": [
-   "Distributed systems",
-   "AWS",
-   "GCP",
-   "Azure",
-   "Spark",
-   "LLMs / GenAI",
-   "PyTorch"
-  ],
-  "have": [
-   "Distributed systems",
-   "LLMs / GenAI"
-  ],
-  "gaps": [
-   "AWS",
-   "GCP",
-   "Azure",
-   "Spark",
-   "PyTorch"
-  ],
-  "roadmap": [
-   {
-    "skill": "AWS",
-    "days": 10,
-    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
-    "link": "https://aws.amazon.com/training/"
-   },
-   {
-    "skill": "GCP",
-    "days": 7,
-    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
-    "link": "https://cloud.google.com/learn/training"
-   },
-   {
-    "skill": "Azure",
-    "days": 7,
-    "plan": "App Service, AKS, Azure Functions, Entra ID; AZ-900 level",
-    "link": "https://learn.microsoft.com/training/azure/"
-   },
-   {
-    "skill": "Spark",
-    "days": 7,
-    "plan": "RDD/DataFrame API, partitions, shuffles; PySpark exercises",
-    "link": "https://spark.apache.org/docs/latest/quick-start.html"
-   },
-   {
-    "skill": "PyTorch",
-    "days": 7,
-    "plan": "Tensors, autograd, training loop; fine-tune a small model",
-    "link": "https://pytorch.org/tutorials/"
-   },
-   {
-    "skill": "System design",
-    "days": 5,
-    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
-    "link": "",
-    "refresh": true
-   },
-   {
-    "skill": "Algorithms & data structures",
-    "days": 5,
-    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
-    "link": "",
-    "refresh": true
-   }
-  ],
-  "visaMention": false,
-  "visaSignal": false,
-  "contacts": {
-   "emails": [],
-   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20technical%20recruiter",
-   "manager": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20engineering%20manager",
-   "team": "https://www.linkedin.com/search/results/people/?keywords=Databricks%20AI%20/%20ML%20engineer"
-  },
-  "links": {
-   "careers": "https://www.databricks.com/company/careers/open-positions",
-   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Databricks"
-  }
  },
  {
   "id": "deepjudge-frontend-engineer",
@@ -28953,14 +30580,190 @@
   }
  },
  {
+  "id": "teampicnic-front-end-engineer-react-react-native-store-web",
+  "company": "Picnic",
+  "registerName": "",
+  "title": "Front-End Engineer (React / React Native) – Store & Web",
+  "city": "Amsterdam, North Holland, Netherlands",
+  "url": "https://jobs.picnic.app/nl/vacancies?gh_jid=8105885",
+  "type": "Frontend",
+  "posted": "2026-11-02",
+  "source": "gh",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": false,
+  "fit": "stretch",
+  "years": 4,
+  "experience": "4+ years of professional software development experience, with strong frontend experienc",
+  "skills": [
+   "TypeScript",
+   "JavaScript",
+   "React",
+   "System design"
+  ],
+  "have": [
+   "TypeScript",
+   "JavaScript",
+   "React",
+   "System design"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": true,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Picnic%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Picnic%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Picnic%20Frontend%20engineer"
+  },
+  "links": {
+   "careers": "https://jobs.picnic.app/",
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Picnic"
+  },
+  "visaNote": "Board matched to the IND register by a partial name (). Check it is the same company before relying on sponsorship."
+ },
+ {
   "id": "planetlabs-software-engineer",
   "company": "Planet",
   "registerName": "",
   "title": "Software Engineer",
-  "city": "Berlin, Germany",
-  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8337813",
+  "city": "Haarlem, Netherlands",
+  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8233192",
   "type": "Software",
-  "posted": "2026-11-05",
+  "posted": "2026-11-04",
+  "source": "gh",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": false,
+  "fit": "stretch",
+  "years": 4,
+  "experience": "4+ years of experience in software development within a production environment working p",
+  "skills": [
+   "Java",
+   "Python",
+   "Go",
+   "PostgreSQL",
+   "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "AWS",
+   "GCP",
+   "CI/CD",
+   "Observability",
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "have": [
+   "Java",
+   "Python",
+   "PostgreSQL",
+   "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "CI/CD",
+   "LLMs / GenAI",
+   "System design"
+  ],
+  "gaps": [
+   "Go",
+   "AWS",
+   "GCP",
+   "Observability"
+  ],
+  "roadmap": [
+   {
+    "skill": "Go",
+    "days": 10,
+    "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
+    "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "GCP",
+    "days": 7,
+    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
+    "link": "https://cloud.google.com/learn/training"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [
+    "accommodations@planet.com"
+   ],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Planet%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Planet%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Planet%20Software%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Planet"
+  },
+  "visaNote": "Board matched to the IND register by a partial name (). Check it is the same company before relying on sponsorship."
+ },
+ {
+  "id": "planetlabs-software-engineer-berlin-germany",
+  "company": "Planet",
+  "registerName": "",
+  "title": "Software Engineer",
+  "city": "Berlin, Germany",
+  "url": "https://job-boards.greenhouse.io/planetlabs/jobs/8190766",
+  "type": "Software",
+  "posted": "2026-11-04",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -28970,30 +30773,38 @@
   "sponsorChecked": null,
   "fit": "stretch",
   "years": 4,
-  "experience": "4+ years of experience in software development",
+  "experience": "4+ years of experience in software development within a production environment working p",
   "skills": [
+   "Java",
    "Python",
    "Go",
-   "TypeScript",
-   "React",
-   "REST APIs",
+   "PostgreSQL",
    "Distributed systems",
+   "Docker",
+   "Kubernetes",
+   "AWS",
+   "GCP",
    "CI/CD",
+   "Observability",
    "LLMs / GenAI",
    "System design"
   ],
   "have": [
+   "Java",
    "Python",
-   "TypeScript",
-   "React",
-   "REST APIs",
+   "PostgreSQL",
    "Distributed systems",
+   "Docker",
+   "Kubernetes",
    "CI/CD",
    "LLMs / GenAI",
    "System design"
   ],
   "gaps": [
-   "Go"
+   "Go",
+   "AWS",
+   "GCP",
+   "Observability"
   ],
   "roadmap": [
    {
@@ -29001,6 +30812,31 @@
     "days": 10,
     "plan": "Tour of Go; goroutines & channels; build a small REST service with net/http + tests",
     "link": "https://go.dev/tour/"
+   },
+   {
+    "skill": "AWS",
+    "days": 10,
+    "plan": "Core services (EC2, S3, IAM, RDS, Lambda, EKS); aim for AWS Cloud Practitioner → Developer Associate",
+    "link": "https://aws.amazon.com/training/"
+   },
+   {
+    "skill": "GCP",
+    "days": 7,
+    "plan": "Compute Engine, GKE, Cloud Run, BigQuery, IAM basics",
+    "link": "https://cloud.google.com/learn/training"
+   },
+   {
+    "skill": "Observability",
+    "days": 3,
+    "plan": "Metrics/logs/traces, Prometheus + Grafana, OpenTelemetry basics",
+    "link": "https://opentelemetry.io/docs/"
+   },
+   {
+    "skill": "Kubernetes",
+    "days": 3,
+    "plan": "Deployments, Services, probes, HPA, resource limits — be ready to explain your OCI/K8s setup",
+    "link": "",
+    "refresh": true
    },
    {
     "skill": "System design",
@@ -29229,7 +31065,7 @@
   "city": "Munich, Bavaria, Germany",
   "url": "https://job-boards.eu.greenhouse.io/skdse/jobs/5024825101",
   "type": "AI / ML",
-  "posted": "2026-11-02",
+  "posted": "2026-11-10",
   "source": "gh",
   "country": "Germany",
   "countries": [
@@ -29421,5 +31257,66 @@
    "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=101282230&keywords=Vestlane"
   },
   "visaNote": "Germany has no sponsor register. Usual route: EU Blue Card, which any employer can support if the salary meets the threshold. Confirm they hire from outside the EU."
+ },
+ {
+  "id": "vitestro-medior-c-software-engineer",
+  "company": "Vitestro",
+  "registerName": "Vitestro B.V.",
+  "title": "Medior C++ Software Engineer",
+  "city": "Utrecht Netherlands",
+  "url": "https://vitestro.recruitee.com/o/medior-c-software-engineer-1",
+  "type": "C++",
+  "posted": "2026-09-11",
+  "source": "rec",
+  "country": "Netherlands",
+  "countries": [
+   "Netherlands"
+  ],
+  "sponsor": true,
+  "sponsorChecked": true,
+  "fit": "stretch",
+  "years": 4,
+  "experience": "4–7 years of experience developing C++ software in a professional environment",
+  "skills": [
+   "Python",
+   "C++",
+   "Linux",
+   "System design"
+  ],
+  "have": [
+   "Python",
+   "C++",
+   "Linux",
+   "System design"
+  ],
+  "gaps": [],
+  "roadmap": [
+   {
+    "skill": "System design",
+    "days": 3,
+    "plan": "Designing Data-Intensive Applications ch.1-9; practise 4 designs (URL shortener, rate limiter, payments ledger, notification system)",
+    "link": "",
+    "refresh": true
+   },
+   {
+    "skill": "Algorithms & data structures",
+    "days": 5,
+    "plan": "NeetCode 150 (arrays, hashing, two pointers, trees, graphs, DP) — ~3 problems/day",
+    "link": "",
+    "refresh": true
+   }
+  ],
+  "visaMention": false,
+  "visaSignal": false,
+  "contacts": {
+   "emails": [],
+   "recruiter": "https://www.linkedin.com/search/results/people/?keywords=Vitestro%20technical%20recruiter",
+   "manager": "https://www.linkedin.com/search/results/people/?keywords=Vitestro%20engineering%20manager",
+   "team": "https://www.linkedin.com/search/results/people/?keywords=Vitestro%20C%2B%2B%20engineer"
+  },
+  "links": {
+   "careers": null,
+   "linkedinJobs": "https://www.linkedin.com/jobs/search/?geoId=102890719&keywords=Vitestro"
+  }
  }
 ]
