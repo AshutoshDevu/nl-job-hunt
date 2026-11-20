@@ -114,6 +114,13 @@ const RELOCATE = {
   Switzerland: () => "I'm ready to relocate to Switzerland and would need the employer to sponsor my work permit.",
 };
 const country = (j) => j.country || "Netherlands";
+// Germany-first shortlist (2026-11-20): shown at the top with a "Focus" tag, in this order.
+const FOCUS = ["snowflake-software-engineer-java-platform", "snowflake-software-engineer-database-search", "snowflake-software-engineer-dynamic-tables",
+  "zertificonsolutions-professional-java-developer-f-m-d-at-an-established-it-secur", "bruker-java-software-developer-laboratory-instruments-m-f-d-",
+  "elevenlabs-applied-ai-engineer", "bitcapital-ai-engineer-m-f-d-", "resonance-applied-ai-engineer", "moss-applied-ai-engineer",
+  "atlantic-software-engineer-gn-industrial-ai-venture-berlin", "kayak-data-engineer", "cuspai-data-engineer"];
+const focusRank = (j) => { const i = FOCUS.indexOf(j.id); return i < 0 ? 999 : i; };
+const CKEY = "nljh-country";
 
 function mail(j) {
   return `Subject: Application – ${j.title} (${j.company})
@@ -139,6 +146,7 @@ function card(j) {
   sel.onchange = () => { p.status = sel.value; if (sel.value === "applied" && !p.appliedOn) p.appliedOn = new Date().toISOString().slice(0, 10); save(); render(); };
   sel.onclick = (e) => e.stopPropagation();
   const chips = el("div", { className: "chips" },
+    focusRank(j) < 999 ? el("span", { className: "chip ok", textContent: "★ Focus" }) : null,
     el("span", { className: "chip fit-" + j.fit, textContent: { strong: "Strong fit", good: "Good fit", stretch: "Stretch" }[j.fit] }),
     el("span", { className: "chip", textContent: j.type }),
     el("span", { className: "chip", textContent: country(j) }),
@@ -219,8 +227,11 @@ const CITY = /amsterdam|rotterdam|utrecht|eindhoven|the hague|den haag|delft|lei
 const CITY_NAME = { "den haag": "The Hague", "the hague": "The Hague", "münchen": "Munich", "köln": "Cologne", "nürnberg": "Nuremberg", "zürich": "Zurich", "genève": "Geneva" };
 const cityKey = (s) => { const m = (s.match(CITY) || ["Other"])[0]; return CITY_NAME[m.toLowerCase()] || m.charAt(0).toUpperCase() + m.slice(1).toLowerCase(); };
 fetch("jobs.json").then(r => r.json()).then(d => {
-  jobs = d.map(j => ({ ...j, cityKey: cityKey(j.city) }));
+  jobs = d.map((j, i) => ({ ...j, cityKey: cityKey(j.city), _i: i })).sort((a, b) => focusRank(a) - focusRank(b) || a._i - b._i);
   [...new Set(jobs.map(country))].sort().forEach(t => $("#fCountry").append(el("option", { value: t, textContent: t })));
+  let c = "Germany"; try { const s = localStorage.getItem(CKEY); if (s !== null) c = s; } catch {}
+  $("#fCountry").value = [...$("#fCountry").options].some(o => o.value === c) ? c : "";
+  $("#fCountry").addEventListener("change", () => { try { localStorage.setItem(CKEY, $("#fCountry").value); } catch {} });
   [...new Set(jobs.map(j => j.type))].sort().forEach(t => $("#fType").append(el("option", { value: t, textContent: t })));
   [...new Set(jobs.map(j => j.cityKey))].sort().forEach(t => $("#fCity").append(el("option", { value: t, textContent: t })));
   render();
